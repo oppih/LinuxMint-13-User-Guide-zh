@@ -3,9 +3,8 @@ LinuxMint-13 用户手册中文翻译项目
 
 **Source**: [http://www.linuxmint.com/documentation/user-guide/](http://www.linuxmint.com/documentation/user-guide/)
 
-**Rederence**: version 11 Chinese edition： [http://www.linuxmint.com/documentation/user-guide/chinese_11.0.pdf](http://www.linuxmint.com/documentation/user-guide/chinese_11.0.pdf)
+**Reference**: version 11 Chinese edition： [http://www.linuxmint.com/documentation/user-guide/chinese_11.0.pdf](http://www.linuxmint.com/documentation/user-guide/chinese_11.0.pdf)
 
-----
 
 ### Get Involved
 
