@@ -18,3 +18,6 @@ LinuxMint-13 用户手册中文翻译项目
 - And pat yourself on the back for contributing to an open source project!!  :)
  
 And if you have any questions about this project, or you have found some bugs in the translated articles, you may reach us on [the issue page](https://github.com/oppih/LinuxMint-13-User-Guide-zh/issues).
+
+----
+Contact: [www.fcctt.org](www.fcctt.org) | [www.linuxmint.net](http://linuxmint.net/)
