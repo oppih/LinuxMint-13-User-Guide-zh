@@ -66,7 +66,7 @@ Note: If you intend to redistribute or to make commercial use of Linux Mint in t
 ### Where to find help
 
 The Linux Mint community is very helpful and very active. If you have questions or a problem related to Linux Mint, you should be able to get help from other users online. 
-First, make sure to register with the “Linux Mint Forums”. This is the very first place where you can find help: http://www.linuxmint.com/forum.
+First, make sure to register with the “Linux Mint Forums”. This is the very first place where you can find help: [http://www.linuxmint.com/forum](http://www.linuxmint.com/forum).
 
 If you want to chat with other users you can connect to the IRC chat room. Under Linux Mint simply launch “XChat” from the menu. If you’re using another operating system or another IRC client make sure to connect to the “irc.spotchat.org” server and to join the channels “#linuxmint-help” and “#linuxmint-chat”. 
 
