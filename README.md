@@ -20,4 +20,4 @@ LinuxMint-13 用户手册中文翻译项目
 And if you have any questions about this project, or you have found some bugs in the translated articles, you may reach us on [the issue page](https://github.com/oppih/LinuxMint-13-User-Guide-zh/issues).
 
 ----
-Contact: [www.fcctt.org](www.fcctt.org) | [www.linuxmint.net](http://linuxmint.net/)
+Contact: [www.fcctt.org](http://www.fcctt.org) | [www.linuxmint.net](http://linuxmint.net/)
