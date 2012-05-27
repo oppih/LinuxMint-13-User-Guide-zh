@@ -1,8 +1,11 @@
 ## Tips and Tricks
+## 使用小技巧
 
 Are you making the most of your desktop? Do you usually press “CTRL+C” on your keyboard to copy some text? Do you open a text editor to take a quick note? How do you share files with your friends? There are many ways to perform simple tasks, some more efficient than others. This chapter is going to show you a few particularities of Linux, MATE, and the Linux Mint desktop, to make sure you make the most of your system. 
+您是否已经将您的桌面体验最大化了？ 您经常使用键盘快捷键 “CTRL+C” 来复制文本么？ 您是否会使用文本编辑器来做些小笔记？ 您是否会跟朋友之间分享文档？ 有许多方式可以用来完成这些琐碎的小任务， 只是有些方式效率会较高。 本章将会向您展示几种在 Linux, MATE, 以及 Linux Mint 桌面环境下， 讲您的系统体验发挥到极致的方式。
 
 ### Copy and paste with the mouse
+### 使用鼠标复制粘贴
 
 Most people are used to clicking on the “Edit” menu or to right clicking on the content they want to copy. In Linux Mint you can do this as well, but most GNU/Linux operating systems also let you copy and paste content from the comfort of your mouse. Here's how it works: The left button of the mouse copies and the middle button pastes. It's as simple as that!
 
