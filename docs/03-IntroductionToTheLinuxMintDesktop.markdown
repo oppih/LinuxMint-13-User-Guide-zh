@@ -1,5 +1,7 @@
 ## Introduction to the Linux Mint Desktop
 
+## Linux Mint 桌面简介
+
 This section of the guide will focus on the technologies and the tools that are specific to Linux Mint and provide information on some of the applications and technologies included by default in the MATE Edition. 
 
 ### The MATE Desktop
