@@ -3,11 +3,11 @@
 ## Linux Mint的安装
 You can download the Linux Mint operating system for free. It comes as an ISO file which you need to burn to a blank DVD. The liveDVD is then bootable and provides a fully-functional operating system which you can try without affecting your PC. In layman's terms, when you put Linux Mint on a DVD and place it into your computer, you can try it out while leaving your current system intact. 
 
-您可以免费下载Linux Mint操作系统。所提供下载的是一个ISO文件，所以您需要将其刻录入一张空白DVD中。然后便可用此liveDVD启动系统，同时它也提供了全功能操作系统而对您的电脑却毫无影响。通俗地讲，当您将Linux Mint刻入DVD中并将其插入到电脑，进行试用时对您当前的系统没有丝毫的影响。
+您可以免费下载Linux Mint操作系统。网站所提供下载的是一个ISO文件，所以您需要将其刻录入一张空白DVD中。然后便可用此liveDVD启动系统，同时它也提供了全功能操作系统而对您的电脑却毫无影响。通俗地讲，当您将Linux Mint刻入DVD中并用它启动电脑，进行试用时对您当前的系统没有丝毫的影响。
 
 Note: It is also possible to write the ISO image to a USB stick or other memory device and boot from that, or to boot from the ISO image on the hard drive, but these options are somewhat more advanced and the method presented here is recommended. For help with alternative methods of installing and running Linux Mint, please visit the forums.
 
-注意：亦可将ISO镜像写入到U盘或者其他存储设备中，然后从这些设备启动系统，或者从硬盘上的ISO镜像文件直接启动，但这些是较高级的选择，我们更推荐您使用本文呈现的方法安装系统。欲寻求安装和运行Linux Mint的其他备选方法，请访问论坛。
+注意：您亦可将ISO镜像写入到U盘或者其他存储设备中，然后从这些设备启动系统，或者从硬盘上的ISO镜像文件直接启动，但这些是较高级的选择，我们更推荐您使用本文呈现的方法安装系统。欲寻求安装和运行Linux Mint的其他备选方法，请访问论坛。
 
 If you like what you see when running the liveDVD you can decide to install the system to your hard drive. All the necessary tools (partitioning and installation tools) are present on the DVD.
  
@@ -115,9 +115,9 @@ The release notes are featured on the Linux Mint web page and answer the followi
 - What are the known problems of this release?
 - How do I upgrade from the previous release?
 
-发行说明位于Linux Mint官方网页的重要位置，它主要回答了一下几个问题：
+发行说明位于Linux Mint官方网页的重要位置，它主要回答了以下几个问题：
 
-- 在此发行版中友哪些新增特性？
+- 在此发行版中有哪些新增特性？
 - 此发行版存在哪些已知的问题？
 - 如何从前一版本进行升级？
 
@@ -142,10 +142,10 @@ If that DVD is faulty you will experience weird bugs and will have a lot of trou
 - An issue with the download causing problems in your ISO file
 - An error during the burn process that alters the contents of your burned liveDVD 
 
-如果那张DVD有错误，您将会遇到诡异问题，而且寻求帮助时也会遇到很多麻烦。导致DVD有误的最常见两个原因是：
+如果那张DVD有错误，您将会遇到诡异问题，而且寻求帮助时也会遇到很多麻烦。导致DVD文件有误的最常见两个原因是：
 
 - 下载过程中的问题导致了ISO文件的错误
-- 刻录过程中的错误改变了liveDVD内容的改变
+- 刻录过程中的错误改变了liveDVD的内容
 
 The MD5 signature, which is present on the download page, provides a quick way for you to make sure that your ISO file is exactly like it should be. So, let’s check the ISO file you just downloaded before we burn it and save ourselves from a lot of potential problems. 
 
@@ -161,7 +161,7 @@ If you run any version of Linux you probably already have the md5sum program ins
     
 This command should output a series of numbers and letters which comprise the MD5 sum, or signature, of your ISO file. By design, any small change to the ISO file will cause this signature to be significantly different, allowing us to verify that the file is exactly as it should be.
 
-这条命令应该会输出一串数字和字母，其中包含了您的ISO文件的MD5校验和或MD5值。依照设计，任何小的改动都将引起MD5值的明显改变，这样我们就能验证文件没有被篡改过。
+这条命令应该会输出一串数字和字母，其中包含了您的ISO文件的MD5校验值。依照设计，任何小的改动都将引起MD5值的明显改变，这样我们就能验证文件没有被篡改过。
 
 Compare that signature with the one on the download page of the Linux Mint website. If the two signatures are the same, then you know your ISO file is exactly the same as the original and you can now get ready to burn it on DVD 
 
@@ -234,7 +234,7 @@ If you’re running Windows you can use a program like InfraRecorder:
 
 Note: Make sure to burn the ISO image to disk, and not to write the ISO file to the disk. A very common mistake, especially for people using Nero, is to actually burn the ISO file on the disk as a data file. The ISO file is an image of a disk so it needs to be burnt not as a file which will appear on the disk, but as an ISO image which will be decompressed and whose content will be burnt onto the disc. After burning the DVD you shouldn't see the ISO file within the disc, but rather folders like “casper” or “isolinux”. Most burning software has a special option for this. 
 
-注意：请确定是将ISO镜像刻录到光盘，而不是将ISO文件写入光盘。一个极其普遍的错误，尤其是使用Nero的人们，会实际将ISO文件当做数据文件刻录到光盘中。ISO文件是磁盘的一个镜像，因此它不应被刻录成磁盘上的一个文件，而应该是一个被解压ISO镜像，其内容被刻录在光盘上。刻录完DVD后，在光盘中您不会看到ISO文件，而应是类似“casper”或者“isolinux”之类的目录文件。大部分刻录软件对此都有指定的选项。
+注意：请确定是将ISO镜像刻录到光盘，而不是将ISO文件写入光盘。对使用Nero的人们来说，一个极其普遍的错误是他们会实际将ISO文件当做数据文件刻录到光盘中。ISO文件是磁盘的一个镜像，因此它不应被刻录成磁盘上的一个文件，而应该是一个被解压ISO镜像，其内容被刻录在光盘上。刻录完DVD后，在光盘中您不会看到ISO文件，而应是类似“casper”或者“isolinux”之类的目录文件。大部分刻录软件对此都有指定的选项。
 
 ### Boot the LiveDVD
 ###引导LiveDVD
@@ -246,7 +246,7 @@ Place the DVD in the drive and restart the computer. You should now see the foll
 
 Note: If you don’t see this screen and your PC boots as usual it’s probably because your BIOS is not set to boot on DVD. Restart the computer and press F1, F2, Delete, or Escape (or whatever key lets you enter the BIOS configuration) and change your BIOS settings to tell your computer to boot from its DVD drive. 
 
-注意：如果您没有看到此界面并且您的电脑像以往一样正常启动，那么可能是由于您的BIOS没有设置为从DVD启动。重启电脑，按下F1，F2，Delete或者Escape键（或者其他能让您进入BIOS配置的键）然后修改您的BIOS设置以告知电脑从DVD驱动启动。
+注意：如果您没有看到此界面并且您的电脑像以往一样正常启动，那么可能是由于您的BIOS没有设置为从DVD启动。重启电脑，按下F1、F2、Delete或者Escape键（或者其他能让您进入BIOS配置的键）然后修改您的BIOS设置以告知电脑从DVD驱动启动。
 
 ### Install Linux Mint on your Hard Drive
 
@@ -331,6 +331,18 @@ Once Linux Mint is finished loading you should see a new screen inviting you to 
  
 
 Note: By default, your “root” password is the same as the password you chose during the installation. If you do not know what this means, then don't worry about it.
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
