@@ -1,6 +1,10 @@
 ##Software Management
 
+软件管理
+
 ### Package Management in Linux Mint
+
+### Linux Mint 下的软件包的管理
 
 If you have installed Linux for the first time, then you may not be familiar with the concept of organizing software into “packages”. You will soon become familiar with package management and appreciate the advantages it offers in terms of security, control and ease of use.
 
@@ -61,81 +65,171 @@ Some of the most popular applications that are not installed by default in Linux
 
 #### The Software Manager
 
+#### 软件管理器
+
 The easiest way to install software in Linux Mint is to use the Software Manager. It is built on top of the package technology we discussed earlier, but makes things easier to understand, as it allows you to install programs rather than packages (though, remember, it is still using the package system in the background, so it still has the same benefits).
+
+在Linux Mint中安装软件最简单的方法就是使用软件管理器。她是在建立在包管理基础之上的技术，使很多东西简单化，让您安装软件而不是包（尽管如此，记住了，她后台使用的还是包管理器，所以她也有和包管理器相同的益处）。
 
 Open the menu and select “Software Manager”. 
 
+打开菜单选择“软件管理器”。
+
 The Software Manager lets you browse the software made available for Linux Mint. You can browse by category, search by keyword or sort the software by rating and popularity.
+
+软件管理器可以让您查看到在Linux Mint上可以使用的软件。您可以按类查看，搜索关键字，或者按排名或者受欢迎程度排序。
+
 The Menu
+
+菜单
 
 If you know what you're looking for, you don't need to launch anything. Just start typing the application's name in the menu and have it installed from there. 
 
+如果您知道您自己在找什么软件，您不需要运行任何东西。只需要在菜单里输入应用程序的名字，然后安装即可。
+
 For instance, to install the “gftp” package: 
 
+例如，安装“gftp”这个软件包
+
 - Press CTRL+Super_L to open the menu
+
+- 按下组合键CTRL+SUPER_L来打来菜单
+
 - Type “gftp”
+
+- 输入“gftp”
+
 - Press the “Up” arrow to highlight the “Install gftp” button
+
+- 按“上”箭头来使“install gftp”高亮
+
 - Press Enter
+
+- 按回车键
 
 Did we mention how great package management is yet?
 
+- 怎么样我们谈到的软件管理器还不错吧？
+
 #### Synaptic & APT
+
+#### 新立得和APT
 
 If you want to install more than one application or if you’re looking for something which is not in the Software Portal or in the Software Manager, Linux Mint provides two other ways to install software. One is a graphical tool called “Synaptic” and the other is a command line tool called “APT”. 
 
+如果你想安装更多的应用程序，或者你找的软件不在Software Portal和软件管理器中，Linux Mint提供了另外2种方式来安装软件。一个是图形化的工具叫做“新立得”，一个是命令行工具叫做“APT”。
+
 Let’s see how we can install Opera (an alternative to the Firefox Web Browser) with these tools instead:
 
+我们来看一下如何通过以上两种方式来安装Opera（一种类似于火狐的浏览器）。
+
 Open the menu and select “Package Manager”. 
+
+打开菜单，选择包管理器。
 
 Click on the “Search” button and type “opera”. Then go through the list of packages and find the one corresponding to the Opera Web Browser. Tick the box and select “Mark for Installation” then click on the “Apply” button. 
 
+点击搜索按钮，输入“Opera”。然后在列表里找寻对应Opera浏览器的项目，把勾给挑上，并“标记为安装” ，单击“应用”按钮。
+
 Now let’s see how we could have installed Opera using the APT command line tool. 
 
+接下来让我们看看怎么使用命令行工具来安装Opera。
+
 Open the menu and select “Terminal”. Then type the following command:
+
+打来主菜单，选择“终端”，输入以下的命令。
 
     apt install opera
 
+	apt install opera
+	
 Note: Make sure synaptic is closed before using APT. Synaptic is using APT in the background so both can’t run at the same time. The same goes for the Software Manager.
+
+注意：确保你的新立得已经关闭了，因为新立得的后台运行得实际上是APT工具，不可以同时运行。同理软件管理器也是如此。
 
 As you can see APT is extremely easy to use but it’s not graphical. It’s OK. If you’re starting with Linux you probably prefer to deal with a graphical interface (that's why they're there) but as time goes on you’ll prefer things to be fast and efficient and as you can see the fastest way to install Opera is to type “apt install opera”. It can’t be simpler than that. 
 
+如您所见，APT是非常好用的，但是不是图形化的。没关系，如果您刚开始使用Linux，您可能更多的使用图形界面（这也是图形界面的益处），但是随着时间的移动，您可能希望更快更加有效的完成一些事情，比如说安装Opera最简单的方法是“apt install opera”。这再简单不过喽。
+
 There is one important difference between the Software Manager and Synaptic/APT though. With Synaptic and APT you basically deal with packages. In our example the Opera application was very simple and was only made of one package which name was also “opera”, but this will not always be the case, and sometimes you might not know what the name of the package is. Sometimes you might not even have access to the packages for a particular application. 
+
+软件管理器,新立得和APT它们之间的一个重要差别在于，新立得和APT主要用来处理包，在我们的例子中，Opera非常简单，她本身只是由一个包组成的，但是情况并不总是这样的,一些情况下，您并不知道包的名字。有时候您甚至可能接触不到某个软件的包。
 
 The Software Manager is different because it lets you install “applications” by getting the right “packages” for you, not only from the repositories (packages databases) that Synaptic and APT have access to, but also from other places on the Internet. 
 
+软件管理器的不同，在您选择安装应用程序时，自动会为您选择好包。包的来源不仅仅是来自新立得和APT所依赖的源，还来自互联网上的其他地方。
+
 So you might use the Software Manager for two different reasons: 
 
+因此您使用软件管理器可能有以下两种原因：
+
 - Because you’re not used to APT/Synaptic
+
+- 您不习惯新立得和APT
+
 - Because it can actually install applications you don’t have access to using other tools. 
+
+- 因为她能准确的安装好应用软件，在您不使用其他工具的情况下。
 
 ### Remove applications
 
+### 删除应用程序
+
 #### From the Menu
+
+#### 从菜单中删除
 
 Removing an application is quite easy in Linux Mint. Simply highlight the application in the menu, right click on it and select “Uninstall”. 
 
+在Linux Mint里删除一个软件是很简单的。只需要在菜单里标注应用程序，单击右键选择“卸载”即可。
+
 The menu finds the packages and dependencies related to the application you selected. 
+
+在菜单中会找到您要删除的软件包和她的依赖关系。
 
 Click “Remove” and the application will be uninstalled. 
 
+单击删除，应用程序就会被删除了。
+
 #### Using APT
+
+#### 使用APT删除
 
 Another way to remove applications is by using APT. Again, we’re talking command-line utility here, but see how surprisingly easy this is: 
 
+另外一个删除软件的方法就是使用APT命令，我们又在讨论命令行工具了。让我们来看看她是多么简单而令人惊讶吧。
+
 Open the menu and select “Terminal”. Then type the following command:
 
+打开主菜单，选择终端，输入下面的命令
+
     apt remove opera
-    
+
+	apt remove opera
+	
 Note: Make sure synaptic is closed before using APT. Synaptic is using APT in the background so both can’t run at the same time. 
 
+注意：确保你的新立得已经关闭了，因为新立得的后台运行得实际上是APT工具，不可以同时运行。
+
 And that’s it. With one single command you’ve removed Opera from your computer. 
-Synaptic
+
+搞定，你只用了一条指令就把Opera从计算机中移除了。
+
+#### Synaptic  
+
+#### 使用新立得删除
 
 You can also use Synaptic to remove packages... Linux is all about choice so let’s see how to do this. 
 
+你也可以使用新立得来删除包，因为Linux下总有很多选择，让我们来看看怎么使用的它吧：
+
 Open the menu and select “Package Manager”. 
 
+打开主菜单选择“包管理器”
+
 Click on the “Search” button and select “opera”. Then go through the list of packages and find the one corresponding to the Opera Web Browser. Tick the box and select “Mark for Removal” then click on the “Apply” button.
+
+点击搜索按钮，选择“Opera”，然后查看包的列表，找对应于Opera浏览器的选项。把勾挑上，右键选择标记为删除，单击应用按钮即可。
 
 ### Update your system and your applications
 
