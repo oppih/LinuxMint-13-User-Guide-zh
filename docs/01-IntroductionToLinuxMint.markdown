@@ -21,7 +21,7 @@ Linux Mint对个人和公司都是一种伟大的操作系统。
 
 Linux Mint is a very modern operating system; Its development started in 2006. It is, however, built upon very mature and proven software layers, including the Linux kernel, the GNU tools and the MATE desktop. It also relies on the Ubuntu and Debian projects and uses their systems as a base.
 
-Linux Mint 是一种非常现代的操作系统，它开发源于2006年，尽管如此，Linux Mint却是建立在成熟且经过验证的包括Linux内核、GNU工具、MATE桌面在内的软件层上。Linux Mint依赖Ubuntu和Debian项目并且使用它们的系统作为基础。
+Linux Mint 是一种非常现代的操作系统，它的开发源于2006年，尽管如此，Linux Mint却是建立在成熟且经过验证的包括Linux内核、GNU工具、MATE桌面在内的软件层上。Linux Mint依赖Ubuntu和Debian项目并且使用它们的系统作为基础。
 
 
 The Linux Mint project focuses on making the desktop more usable and more efficient for everyday tasks performed by regular users. Underneath the desktop the operating system also provides a huge collection of available software and a very well integrated set of services. 
@@ -46,7 +46,7 @@ Linux Mint的愿望之一是成为最好的操作系统，实现这个愿望的�
 
 The goal is to develop our own idea of the ideal desktop. We think that it is best to make the most out of the modern technologies that exist under Linux and make it easy for everybody to use its most advanced features.
 
-我们的目标是开发出心中最理想的桌面系统。我们认为最好可以充分利用Linux下面的最新技术并且让每一个人都能轻松地使用最高级的特性。
+我们的目标是开发出心中最理想的桌面系统。我们认为最好可以充分利用Linux下面的最新技术并且让每一个人都能轻松地使用最好的功能。
  
 
 ### Version numbers and codenames 
@@ -148,7 +148,7 @@ If you don’t know which edition to use, you should choose the MATE Edition.
 
 Note: If you intend to redistribute or to make commercial use of Linux Mint in the USA or in Japan and if you’re not sure about patent legislation you should use the “CD No Codecs”  installation images.
 
-注释：如果你想重新发布Linux Mint或者在美国日本将Linux Mint用于商业用途并且你不清楚专利法规，你应该使用“CD NO Codecs”安装镜像。
+注释：如果你想重新发布Linux Mint或者在美国、日本将Linux Mint用于商业用途并且你不清楚专利法规，你应该使用“CD NO Codecs”安装镜像。
 
 ### Where to find help
 
@@ -156,7 +156,7 @@ Note: If you intend to redistribute or to make commercial use of Linux Mint in t
 
 The Linux Mint community is very helpful and very active. If you have questions or a problem related to Linux Mint, you should be able to get help from other users online. 
 
-Linux Mint社区非常有帮助并且非常活跃，如果你有Linux Mint相关问题或者难题，你应该能从其他在线用户那获得帮助。
+Linux Mint社区非常有帮助并且非常活跃，如果你有Linux Mint相关问题或者难题，你能从其他在线用户那获得帮助。
 
 First, make sure to register with the “Linux Mint Forums”. This is the very first place where you can find help: [http://www.linuxmint.com/forum](http://www.linuxmint.com/forum).
 
@@ -168,7 +168,7 @@ First, make sure to register with the “Linux Mint Forums”. This is the very 
 
 If you want to chat with other users you can connect to the IRC chat room. Under Linux Mint simply launch “XChat” from the menu. If you’re using another operating system or another IRC client make sure to connect to the “irc.spotchat.org” server and to join the channels “#linuxmint-help” and “#linuxmint-chat”. 
 
-如果你想和其他用户交流你可以连接到IRC聊天室。在Linux Mint下只需要从菜单栏中启动“Xchat”就可以了。如果你使用其他的操作系统或者别的IRC客户端，确r认已经连接到“irc.spotchat.org”服务器并且加入到“#linuxmint-help”和“#linuxmint-chat”频道。
+如果你想和其他用户交流你可以连接到IRC聊天室。在Linux Mint下只需要从菜单栏中启动“Xchat”就可以了。如果你使用其他的操作系统或者别的IRC客户端，确认已经连接到“irc.spotchat.org”服务器并且加入到“#linuxmint-help”和“#linuxmint-chat”频道。
 
 Linux Mint uses Ubuntu repositories (more on what this means later) and is fully compatible with it so most of the resources, articles, tutorials, and software made for Ubuntu also work for Linux Mint. If you can’t find help on a specific subject, make sure to search on the same subject for Ubuntu. 
 
