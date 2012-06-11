@@ -18,7 +18,7 @@ Let's give it a try. Launch LibreOffice Writer or a text editor, or any applicat
 
 Now click on some other part of the document to move the cursor there and click the middle button of your mouse (or the wheel-click if you have a mouse with a wheel, or both the left and right buttons together if your mouse only has two buttons... everything's been thought of, apart from those weird Mac mice with only one button). As you can see the text you previously selected has now been pasted. 
 
-现在您可以将鼠标移动到这篇文档的其他位置，然后点击鼠标中键（如果您的鼠标是带有滑轮的，就按下鼠标滑轮；如果您的鼠标只有左右两个键，就同时按下这两个键；所有情况都被考虑到了，除了只有一个按键的神奇的Mac鼠标例外），正好您所看到的，先前被选中的文档已经粘贴到光标处。
+现在您可以将鼠标移动到这篇文档的其他位置，然后点击鼠标中键（如果您的鼠标是带有滑轮的，就按下鼠标滑轮；如果您的鼠标只有左右两个键，就同时按下这两个键；所有情况都被考虑到了，除了只有一个按键的神奇的Mac鼠标例外），正如您所看到的，先前被选中的文字已经粘贴到光标处。
 
 The more you get used to this the faster you'll get at copying and pasting content. This technique also works on most Unix and GNU/Linux operating systems. 
 
@@ -33,7 +33,7 @@ Note: The buffer used by the mouse is not the same as the one used by the MATE d
 
 We all take notes. Whether it's an address given by someone over the phone, an ever-growing TODO list or some particular thing to remember, we're often faced with the situation where we need to take a quick note. Some of us have a lot of written notes around our computers and never seem to find a working pen when the situation arises, others waste time in launching tools that are not suitable for this particular use (LibreOffice Writer for instance is not very handy to take notes) and very few people actually use software dedicated to note-taking. Linux Mint happens to include a dedicated note-taking tool. It is called Tomboy Notes.
 
-我们都需要做笔记。我们也经常会遇到需要做一些快速笔记的情形，比如在在通话时需要记录某人的地址，或者记录一个待办事项列表或者是一些需要记住的特殊事情。一些人的电脑旁放了好多便签，但在遇到上述紧急情况时，却找不到一支笔；其他一些人把时间浪费在启动工具上，而这种工具却不适合这种场合（举例来说，在这种情况下使用LibreOffice Writer来做笔记就不是很方便）；只有极少数人会使用专门针对记笔记开发的软件。幸运的是，Linux Mint碰巧有一款专用的记笔记工具。它的名称是Tomboy Notes（阿帖便笺）。
+我们都需要做笔记。我们也经常会遇到需要做一些快速笔记的情形，比如在通话时需要记录某人的地址，或者记录一个待办事项列表或者是一些需要记住的特殊事情。一些人的电脑旁放了好多便签，但在遇到上述紧急情况时，却找不到一支笔；其他一些人把时间浪费在启动工具上，而这种工具却不适合这种场合（举例来说，在这种情况下使用LibreOffice Writer来做笔记就不是很方便）；只有极少数人会使用专门针对记笔记开发的软件。幸运的是，Linux Mint碰巧有一款专用的记笔记工具。它的名称是Tomboy Notes（阿帖便笺）。
 
 Tomboy Notes is a very easy tool to use. By clicking on it you get a list of all your notes. You can create new notes by clicking on “Create New Note”. 
 
