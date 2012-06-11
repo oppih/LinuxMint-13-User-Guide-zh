@@ -210,65 +210,119 @@ Open the menu and select “Package Manager”.
 
 Click on the “Search” button and select “opera”. Then go through the list of packages and find the one corresponding to the Opera Web Browser. Tick the box and select “Mark for Removal” then click on the “Apply” button.
 
-点击搜索按钮，选择“Opera”，然后查看包的列表，找对应于Opera浏览器的选项。把勾挑上，右键选择标记为删除，单击应用按钮即可。
+点击搜索按钮，选择“Opera”，然后查看包的列表，找对应于Opera浏览器的选项。把勾挑上，右键选择标记为删除，单击“应用”按钮即可。
 
 ### Update your system and your applications
 
+### 更新你的系统和应用软件
+
 If a new version of any package installed on your computer is made available you can upgrade to it. It may be a security update for some component of the operating system, it may be an optimization in one specific library or it may even be a newer version of Firefox. Basically, your system is made of packages and any part of it can be updated by updating some of those packages. This means replacing the current package with a newer version. 
+
+如果安装在您电脑上的包有新版本了，您可以升级最新版。她可能是操作系统一个组件的更新，可能是某个库的优化，也可能是火狐浏览器的一个新版本。基本上，你的系统是由包组成的，任何一部分都可以通过升级包来更新。这就意味着用一个新版本的包替换当前的版本。
 
 There are many ways to do this but only one of them is recommended. 
 
+更新的方法很多，但在此只推荐一种。 
+
 You could use APT to upgrade all your packages with one simple command (“apt upgrade”) but we strongly recommend you don’t do so. The reason is that it doesn't make any distinctions in selecting which updates to apply and assumes that you want all of them. 
+
+你可以用一个简单的APT命令（apt upgrade)来更新系统的所有包，但我们建议你不要这样做。原因是这个工具在选择更新时不做任何区分，默认您都要更新。
 
 Some parts of the system are safe to update and some others aren’t. For instance, by updating your kernel (the part which is responsible among other things for hardware recognition) you might break your sound support, your wireless card support or even some applications (such as VMWare and Virtualbox) which are closely linked to the kernel. 
 
+系统的部分包可以安全更新，但是有一些就不行了。例如，更新您的内核（她负责很多事情，比如说硬件的识别）您可能会损坏声卡的支持，网卡的支持甚至一些和系统内核相关的应用程序（比如VMWare 和 Virtualbox）。
+
 #### Using the Update Manager
 
+#### 使用更新管理器
+
 Linux Mint comes with a tool called the Update Manager. It gives more information about updates and lets you define how safe an update must be before you want to apply it. It looks like a shield and sits on the bottom-right corner of your screen. 
+
+Linux Mint 有一个叫“更新管理器”的工具。她提供了许多关于更新的信息,在更新之前让您决定怎么安全地更新。她看起来像一个盾牌，坐在您屏幕的右下角。
 
 If you place your mouse pointer on top of it, it will tell you either that your system is up to date or, if it isn't, how many updates are available. 
 
 ![update-manager](https://github.com/oppih/LinuxMint-13-User-Guide-zh/raw/master/images/update-manager.png)
 
+如果您将鼠标移动到上边,她会告诉您系统是否有更新,如果有的话,指出有什么可用的更新。
+
 If you click on the lock icon, the Update Manager opens and shows you the updates that are available. The interface is very easy to use. For each package update you can read the description, the changelog (this is where developers explain their changes when they modify the package), and eventually if Linux Mint assigned warnings or extra information about the updates. You can also see which version is currently installed on your computer and which version is available for you to update to. Finally, you can see the stability level assigned to the package update. Each package update brings improvements or fixes security issues but that doesn’t mean they’re risk-free and can’t introduce new bugs. The stability level is assigned to each package by Linux Mint and gives you an indication of how safe it is for you to apply an update. 
+
+如果你点击锁按钮,更新管理器就打开了,并显示出可用的更新。图形界面很容易操作。您可以查看每个包的更新描述，改版记录（这是开发者们对所修改包的变化进行说明），最后您还可查看 Linux Mint 发出的警告或者关于更新的额外信息。你也可以查看当前电脑里包的版本,以及能够更新到的新版本。每个包的更新都会对包有所改进,或者解决了一些安全隐患,但并不意味着没有危险或者不会引进一些新的 bug。Linux Mint 会标记每个包的稳定级别，更新时给你提示是否安全。
 
 Of course you can click on the columns to sort by stability level, status, package name or by version. You can select all updates or unselect all of them by using the “Clear” and “Select All” buttons. 
 
+当然您可以单击某列进行排序,可以按照稳定性,状态,包的名字,或者版本来排序。你可以通过“选择所有”按钮选中所有的更新,或者“清除”按钮都不选择。 
+
 Level 1 and Level 2 updates are risk-free and you should always apply them. Level 3 updates “should be safe” but, although we recommend you take them, make sure you look over them on the list of updates. If you experience a problem with a particular Level 3 update, tell the Linux Mint development team so they can take measures to make that update a Level 4 or a Level 5  so as to warn or even discourage others against applying it.  
+
+1,2 级别的更新通常是没有危险的,你可以选择更新。3 级别的更新 “应该是安全的”，但是我们建议你在更新表里仔细查看。如果你曾经在 3 级别上的更新出现过问题,请告诉 Linux Mint 研究小组,以便他们采取措,把这个包放在 4,5 级别里,好警告其他用户不要进行这些更新。
 
 ![preferences-update-manager](https://github.com/oppih/LinuxMint-13-User-Guide-zh/raw/master/images/preferences-update-manager.png)
 
 If you click on the “Preferences” button you should see the screen above. By default the Update Manager tells you about Level 1, 2 and 3 updates. You can decide to make Level 4 and 5 “visible”. This will make more updates appear in the list. If you want to  you can even make Level 4 and 5 updates “safe” (although this is not recommended). This will cause them to be selected by default within the Update Manager. 
 
+如果你单击“首选项”按钮,你将会看到上边图片所示的窗口。更新管理器会默认显示 1,2,3 级别的更新,你可以让 4,5 级别也显示出来。这将会在表里显示更多的可更新选项。如果你愿意,你甚至可以选择设置 4,5 级别为安全(尽管不推荐)。这样更新管理器就会默认选中他们这些更新。
+
 The Update Manager only counts “safe” updates. So when it tells you your system is up to date, it means there are no updates available assigned with a level that you defined as being “safe”. 
+
+更新管理器只计算“安全”的更新。因此，当她提示你的系统已经是最新,意味着在你所定义的安全级别中已经没有其他更新。
 
 The Update Manager only shows “visible” updates in the list. 
 
+更新管理器只在表里显示“可见的”更新。
+
 For example, if you made all levels “visible” and only Level 1 and 2 “safe”, you would see a lot of updates in the list, but the Update Manager would probably tell you that your system was up to date. 
+
+例如,你使各个级别都可见了,但是只有 1,2 级别是“安全的”。你会在表中看见很多的更新，但是更新管理器会告诉你的系统是最新的了。
 
 The “Auto-Refresh” tab allows you to define how often the Update Manager checks for updates. 
 
+通过“自动刷新”标签你可以设置更新管理器检查更新的周期。
+
 The “Update Method” tab lets you define how the Update Manager checks for new updates. 
+
+通过“更新方法”标签页你可以设置让更新管理器如何检查最新的更新。 
 
 The “Startup delay” is the amount of time the Update Manager waits before checking for an Internet connection. This delay is used to give the Network Manager an opportunity to establish a connection when the computer starts.
 
+“开启延时”是指更新管理器开启之前检查网络链接的时间。计算机启动时，这个延迟时间给网络管理器一个机会建立网络链接。
+
 You can also define which domain name is used by the Update Manager to check the connection to the Internet. The Update Manager will try to ping this domain before looking for updates.
+
+你也可以通过更新管理器定义的域名来检查网络链接情况。更新管理器会在查找更新前尝试ping这个域名。
 
 The “Include dist-upgrade packages” option allows you to define whether the Update Manager should install new dependencies or not. For instance if package A version 1 was installed on your computer and package A version 2 became available, but version 2 had a new dependency on package B which isn’t installed on your computer… what would happen?
 
+“包含间接升级包” 选项让您选择是否让更新管理器建立新的包依赖关系。例如,包 A 的 1 版本已经安装在系统里，现在包 A 的 2 版本可用，但是 2 版本对 B 包有依赖，而 B 包又不存在电脑上。那该怎么办呢?
+
 If you left this checkbox unchecked, version 2 would not appear as an update in the list of updates. 
+
+如果您不选中复选框,版本 2 就不会出现在更新管理器的列表中了。
 
 If you checked this checkbox, it would, and if selected it would install packageB as a dependency. 
 
+如果你选中这个复选框，她就会安装 B 包来作为依赖。
+
 Be careful with this option as dependency can install new packages on your behalf but they can also sometimes remove packages you already have installed.  
+
+在选择安装新包时要注意依赖关系,有时候会把你已经安装的包给删除了。
 
 In the “Ignored packages” tab you can define packages for which you do not want to receive updates. “?” and “*” wildcard characters are supported.
 
+在“忽略包”标签页中,可以设置您不想接受更新的包,可以使用“?”和“*”等通配符。
+
 The “Proxy” tab lets you define proxy settings.
+
+”代理“ 标签页是让您设置代理服务器的。
 
 The last tab lets you change the icons used by the Update Manager in the system tray. 
 
+最后一个标签是让你设置更新管理器在系统托盘里的图标的。
+
 If you get errors with the Update Manager (“Can’t refresh list of packages” for instance), you can check the logs. Right click on the lock icon in the system tray and select “Information”. The following screen appears: 
+
+如果你在使用更新管理器时有错误发生（比如，不能刷新包列表），你可以检查日志文件。鼠标右击系统托盘，然后选择“信息”。显示如下： 
 
 ![information-update-manager](https://github.com/oppih/LinuxMint-13-User-Guide-zh/raw/master/images/information-update-manager.png)
 
@@ -277,3 +331,11 @@ In this screen you can see the process ID of the Update Manager, whether it's ru
 You can also review the updates that were applied on your system (provided they were applied via the Update Manager) by clicking on “View->History of Updates”.
 
 ![history-of-updates](https://github.com/oppih/LinuxMint-13-User-Guide-zh/raw/master/images/history-of-updates.png)
+
+In this screen you can see the process ID of the Update Manager, whether it's running with user or root permissions, and the content of its log file.
+
+在上图中你可以看到更新管理器的进程ID号，是否以root权限运行，以及日志文件的内容。
+
+You can also review the updates that were applied on your system (provided they were applied via the Update Manager) by clicking on “View->History of Updates”.
+
+你还可以查看你系统已经应用的更新情况(通过更新管理器提供的),通过单击“查看->更新历史”来查看。
