@@ -96,9 +96,9 @@ There is a section called “System” in the bottom left corner of the menu. Th
 
 The “Software Manager” button launches the Linux Mint Software Manager. This program is the recommended way to install software in Linux Mint. We will talk more about this feature later on; for now, let's explore the other options. 
 
-![Synaptic](https://github.com/oppih/LinuxMint-13-User-Guide-zh/raw/master/images/Synaptic.png)
-
 “软件管理器”这个按钮可以打开Linux Mint的软件管理器。推荐您使用这种方式来安装软件，我们随后会介绍关于“软件管理器”的更多特色。现在，我们来探索一下其他功能。
+
+![Synaptic](https://github.com/oppih/LinuxMint-13-User-Guide-zh/raw/master/images/Synaptic.png)
 
 The “Package Manager” button launches an application called “Synaptic”. The purpose of this application is to manage the packages that are installed on your computer and the packages that are available in the repositories. If this doesn’t make much sense to you yet, don’t worry, we will talk about packages and how they work in greater detail later on. 
 
