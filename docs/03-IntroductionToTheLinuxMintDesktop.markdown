@@ -24,11 +24,11 @@ MATE版的Mint Linux使用“MATE”桌面，其更加直观和有效。
 
 “Desktop Settings” is a tool developed specially for Linux Mint which allows you to rapidly configure the aspects of your MATE Desktop that you will use the most. 
 
-“桌面设置”是一个专门为Mint Linux开发的工具，我们可以使用它对MATE桌面进行设置，以达到用户所虚妄的样式。
+“桌面设置”是一个专门为Mint Linux开发的工具，我们可以使用它对MATE桌面进行设置，以达到用户所希望的样式。
 
 Launch it by clicking on “Menu” (in the bottom-left corner of your screen), then select “Preferences” and click on “Desktop Settings”. 
 
-通过点击“菜单”（位于屏幕左下角）去启动它，然后选择“首选项”，点击“桌面设置”
+通过点击“菜单”（位于屏幕左下角）去启动它，然后选择“首选项”，点击“桌面设置”。
 
 The Menu Linux Mint comes with a unique menu. This menu was initially inspired by the “Slab” menu developed by SUSE but differs from it in many ways. 
 
@@ -40,7 +40,7 @@ Linux Mint也有MATE默认的菜单，你也可以用其他桌面菜单对它进
 
 To open the menu click on the “Menu” button at the bottom-left corner of your screen or press CTRL+SUPER_L (“Super_L” is the left Windows key on your keyboard).
 
-单击在你屏幕左下方的菜单来打开主菜单， 或者按组合键CTRL+SUPER_L(SUPER_L相当于键盘的的WINDOWS键）
+单击在你屏幕左下方的菜单来打开主菜单， 或者按组合键CTRL+SUPER_L(SUPER_L相当于键盘的WINDOWS键）.
 
 #### Getting to know the menu
 
@@ -56,11 +56,11 @@ On the top left corner of the menu you can see a section called “Places” whi
 
 The “Computer” Place shows you the storage volumes present in your computer. If your partitions are already mounted and “Desktop Settings” is set to show “Mounted Volumes” on the desktop, then you probably don’t need to access this Place very often. However, if you choose not to show the mounted volumes on your desktop, or if you need to mount a partition which is not mounted by default, this Place can prove very useful. 
 
-“计算机”显示你电脑存在的所有存储介质。如果你的分区已经被挂载了并且“桌面设置”中设置在桌面上放置已挂载介质，那你就不需要经常访问这里。但是，如果你没有设置在桌面上显示挂在介质的话，或者你需要挂载一个系统没有默认挂载的介质的话，这里会非常有用。
+“计算机”显示你电脑存在的所有存储介质。如果你的分区已经被挂载了并且“桌面设置”中设置在桌面上放置已挂载介质，那你就不需要经常访问这里。但是，如果你没有设置在桌面上显示挂载介质的话，或者你需要挂载一个系统没有默认挂载的介质的话，这里会非常有用。
 
 In contrast, the “Home” Place is one of the menu buttons you’ll probably use the most. If you’ve used MATE before, you’re probably used to clicking on the “Home” icon placed on the desktop. When windows are opened and when the desktop is not completely visible, the menu can prove useful by providing you with a way to quickly access your “Home”. 
 
-反之，“主文件夹”按钮可能成为你最为常用的按钮之一。如果你之前已经用过MATE桌面，你可能使用桌面上的“主文件夹”按钮，当窗口打开并且桌面未完全可见时，主菜单可以提供快速进入“主文件夹”的一个方式。
+反之，“主文件夹”按钮可能成为你最为常用的按钮之一。如果你之前已经用过MATE桌面，你可能会点击桌面上的“主文件夹”按钮，当窗口打开并且桌面未完全可见时，主菜单可以提供快速进入“主文件夹”的一个方式。
 
 - Your “Home” folder exists to give you a place to put all of your personal data.  
 - The “Desktop” folder corresponds to what is shown on your desktop, so placing a file here will also place it on your desktop.  The same effect can be achieved by simply dragging the file onto the desktop.
@@ -70,7 +70,7 @@ In contrast, the “Home” Place is one of the menu buttons you’ll probably u
 - “主文件夹”存在的意义在于存放个人的数据。
 - “桌面”文件夹与你想在桌面放置的文件相对应，因此放置在“桌面文件夹”中相当于放置在桌面上。
 - “网络”显示你所在网络下的其他电脑，共享服务，主机和工作组。
-- “回收站”你删除文件后，这些被删文件的归属地。
+- “回收站”是你删除文件后，这些被删文件的归属地。
 
 When you right click on a file you can either “Move to Trash” or “Delete”. If you choose to “Delete”, the file will be permanently deleted and you normally won’t be able to recover it. If you choose “Move to Trash” it will be moved to the “Trash” Place, which is accessible from the menu. From there you will be able to drag and drop it somewhere else if you want to restore it, permanently delete one or more files, or  select “Empty Trash” if you want to permanently delete all items from the Trash. 
 
@@ -90,7 +90,7 @@ The “Software Manager” button launches the Linux Mint Software Manager. This
 
 The “Package Manager” button launches an application called “Synaptic”. The purpose of this application is to manage the packages that are installed on your computer and the packages that are available in the repositories. If this doesn’t make much sense to you yet, don’t worry, we will talk about packages and how they work in greater detail later on. 
 
-这个“包管理器”按钮会打开一个“新立得”的软件。这个软件可以帮助您管理已安装程序或者源中有效的软件包。如果它对你来说暂时没有多少用处，别着急，我们将会在随后讨论软件包和他们的工作细节。
+这个“包管理器”按钮会打开一个“新立得”的软件。这个软件可以帮助您管理已安装程序或者源中有效的软件包。如果它对你来说暂时没有多少用处，别着急，我们将会在随后讨论软件包和它们的工作细节。。
 
 The “Control Center” button launches the MATE Control Center. This application lets you configure every aspect of the MATE Desktop and of the computer in general. We will go through each item within this Control Center at a later time. 
 
@@ -98,15 +98,15 @@ The “Control Center” button launches the MATE Control Center. This applicati
 
 The “Terminal” button launches an application called “Terminal” which lets you enter commands directly using the keyboard. If you’re used to Microsoft Windows you may think that this is old hat, because in Windows the command line hasn't progressed much further than the “DOS prompt” and is hidden away in an accessories menu. One of the ways in which Linux systems differ from Windows systems is that the terminal is quite important in Linux, as it is often used as a way of getting more direct control over one's computer. We’d probably agree that the Terminal isn’t the most visually appealing application included in Linux Mint, but it is worth knowing that it is by far the most powerful, and once learned it’s actually not very hard to use. 
 
-“终端”按钮可以打开一个叫做“终端”的程序，你可以用键盘在终端中直接输入命令。如果你习惯了用微软视窗操作系统，可能会认为终端太老了。因为在Windows里，命令行没有展现出相比“DOS”的优势，并且被隐藏在附件里。linux系统和windows系统的一个很大的区别是，终端在linux里是非常重要的，终端用来更直接的控制电脑。我们可能会认同，终端看起来并没有Linux Mint里那些可视化软件看起来舒服，但是我们应该知道，终端是最强大的工具，当你熟悉终端时，会其实很易用。
+“终端”按钮可以打开一个叫做“终端”的程序，你可以用键盘在终端中直接输入命令。如果你习惯了用微软视窗操作系统，可能会认为终端太老了。因为在Windows里，命令行没有展现出相比“DOS”的优势，并且被隐藏在附件里。Linux系统和windows系统的一个很大的区别是，终端在Linux里是非常重要的，终端用来更直接的控制电脑。我们可能会认同，终端并没有Linux Mint里那些可视化软件看起来舒服，但是我们应该知道，终端是最强大的工具，当你熟悉终端时，它其实很易用
 
 In fact, it is worthwhile understanding that every command that you execute using a graphical desktop environment goes through the Terminal. When you click on an icon on the menu, for example, you are instructing MATE to pass a textual instruction to the Terminal. As an instructional exercise, if you open “Main Menu” from the “Look and Feel” section of “Control Center” (see above), and navigate to any of the application menus, pick an application, and click on the properties button, you will see in the “Command” field the text command that is passed to the system when you click on that application's entry in the menu. In other words, you have already been using the Terminal for some time, perhaps without realizing it. All that was different was that, instead of you typing out the commands, your desktop (MATE) was doing it for you (which is a good thing because nobody wants to remember hundreds of application names all the time).
 
-事实上，我们应该知道，使用图形界面产生的每一条命令都会经过终端。例如，当你单击主菜单的一个按钮，你是在通过MATE来发送一个文本指令给终端去执行。举个具体的例子，如果你你从”控制中心“的“外观”部分打开”主菜单“，导航到主菜单中的任何程序时，挑选一个程序，选择属性按钮，我们会看见在”命令“里有你单击应用程序时所产生的指令。换句话说，你可以一直在使用终端，只是你没有意识到而已。不同的是，当你需要敲命令时，MATE桌面已经为你代劳了（这个不错，因为没有人会一下子记住上百的命令）。
+事实上，我们应该知道，使用图形界面产生的每一条命令都会经过终端。例如，当你单击主菜单的一个按钮，你是在通过MATE来发送一个文本指令给终端去执行。举个具体的例子，如果你从”控制中心“的“外观”部分打开”主菜单“，导航到主菜单中的任何程序时，挑选一个程序，选择属性按钮，我们会看见在”命令“里有你单击应用程序时所产生的指令。换句话说，你一直在使用终端，只是你没有意识到而已。不同的是，当你需要敲命令时，MATE桌面已经为你代劳了（这个不错，因为没有人会一下子记住上百的命令）。
 
 Sooner or later, though, you will probably have be in a situation which causes you to use the Terminal directly, either to access commands that are not available through any GUI, or to get a job done more efficiently. Yes, you read that right! It can be more efficient to type a single command, for certain tasks, than to open up lots of windows to achieve the same thing. The more you use it, the more you’ll come to actually like it.  Remember how you didn’t like certain things when you were a kid and how you couldn’t do without them now? Terminal is one of these things. In a few weeks, you’ll be completely addicted to it. You'll begin to feel in complete control of your computer. There will be times when you won’t even have to use the Terminal, but you will anyway, because for some tasks it’s faster, more accurate, more versatile and actually simpler to use than equivalent graphical interfaces. And anyone watching you will think you're a complete pro.
 
-迟早你会遇到需要直接操作终端的情形，或者直接使用那些不能通过图形界面执行的命令，或者是你想更有效的完成一个工作。对，你终于明白了！对于一些特定的任务，在终端里输入命令会比打开许多图形程序好高效很多。你用命令越多，你会发现越会爱上它。还记得你小的时候不喜欢的东西么，而你现在却离不开他们了。终端就是这样的东西。在几个星期之内，你可能都不会用到终端，但是为了使某些任务更加的精确，快速，通用的，实际上比图形界面更加简单，你会用到终端。并且，每个人都会觉得你是计算机专家的。
+迟早你会遇到需要直接操作终端的情形，或者直接使用那些不能通过图形界面执行的命令，或者是你想更有效的完成一个工作。对，你终于明白了！对于一些特定的任务，在终端里输入命令会比打开许多图形程序高效很多。你用命令越多，你会发现越会爱上它。还记得你小的时候不喜欢的东西么，而你现在却离不开他们了。终端就是这样的东西。在几个星期之内，你可能就迷上终端。你感到能完全操控你的电脑。有时你可能都不会用到终端，但是为了使某些任务更加的精确，快速，通用的，实际上比图形界面更加简单，你会用到终端。并且，每个人都会觉得你是计算机专家的。
 
 The “Logout” button launches a dialog which lets you logout or switch users. 
 
@@ -122,7 +122,7 @@ The “Quit” button launches a dialog box which lets you choose what you want 
 - “Shut Down” turns the computer off. 
 
 - “挂起”会把你的任务保存到内存中，你的电脑将会休眠直到你按下某个键
-- “休眠”会吧你的任务保存到硬盘，然后关闭电脑
+- “休眠”会把你的任务保存到硬盘，然后关闭电脑
 - “重启”将会重新启动你的电脑
 - “关机”将会关闭电脑
 
@@ -148,11 +148,11 @@ In the right-hand section of the menu, you can see all installed applications. T
 
 The last two categories, “Preferences” and “Administration”, show you the tools and applications provided to configure and administrate Linux Mint. We’ll focus on these applications later on, as they are also present in the “Control Center”. 
 
-最后两个类别是“首选项”和“系统管理”，提供给您配置和管理Linux Mint的工具和应用软件。我们一会来着重看一下这些应用程序，“控制中心”里同样有这些软件。
+最后两个类别是“首选项”和“系统管理”，提供给您配置和管理Linux Mint的工具和应用软件。我们在后面来着重看一下这些应用程序，“控制中心”里同样有这些软件。
 
 The 5 categories in the center provide most of the applications you’ll use on a daily basis. As you install new software, new categories might appear. 
 
-菜单中的这5个类别提供了您日常将会使用的应用程序。如果您安装了新的软件，可能新的类别会出现。。
+菜单中的这5个类别提供了您日常将会使用的应用程序。如果您安装了新的软件，可能新的类别会出现。
 
 In “Accessories”, you can find the following software:
 
@@ -174,9 +174,9 @@ In “Accessories”, you can find the following software:
 | ---- | ---- |
 | 计算器 | 一个计算器 |
 | 字符映射表 | 一个可以轻松复制和粘贴特殊字符的工具（比如说重读符） |
-| 磁盘使用分析器 | 一个显示你硬盘空间的工具 |
+| 磁盘使用分析器 | 一个显示你硬盘空间的工具。 |
 | 文件查找... | 一个查找你计算机上文件的工具 |
-| 抓图 | 一个截取屏幕图片的工具。你同样可以通过按下键盘上的“Print Scrn”键来截取桌面，或者用“ALT” + “Print Scrn” 来截取当前的桌面|
+| 抓图 | 一个截取屏幕图片的工具。你同样可以通过按下键盘上的“Print Scrn”键来截取桌面，或者用“ALT” + “Print Scrn” 来截取当前的桌面。 |
 | 终端 | 终端 |
 | 时间和日期 | 配置时间和日期 |
 | Pluma | 一个文本编辑器 |
@@ -195,8 +195,8 @@ In “Graphics” you can find the following software:
 
 | 名称 | 描述 |
 | ---- | ---- |
-| GIMP 图形编辑器 | 一个让你可以修改、转化图片格式、甚至是创建图片的应用程序。可以媲美Photoshop |
-| LibreOffice 画图 | 这个应用是LibreOffice组件中的一部分 |
+| GIMP 图形编辑器 | 一个让你可以修改、转化图片格式、甚至是创建图片的应用程序。可以媲美Photoshop。 |
+| LibreOffice 画图 | 这个应用是LibreOffice组件中的一部分。 |
 | 扫描仪 | 通过扫描捕获图片的一个工具 |
 | gThumb | 一个管理图片的应用程序 |
 
@@ -276,7 +276,7 @@ As you’re typing, only the applications matching your search will stay visible
 
 If your search yields no results, the menu will provide “suggestions” related to the keyword you typed. For instance, if you type “opera” and if the Opera web browser isn't installed on your system, the menu will show a button to install it, or to search the software portal or the repositories for it. 
 
-如果你没有找到结果，菜单栏将会提供与你的关键字类型相关的“建议”，如果你的类型是“opera”并且你没有在系统里安装Opera web浏览器，惨淡栏将会显示一个安装Opera的按钮，或者Opera的官网，和Opera的源。
+如果你没有找到结果，菜单栏将会提供与你的关键字类型相关的“建议”，如果你的类型是“opera”并且你没有在系统里安装Opera web浏览器，菜单栏将会显示一个安装Opera的按钮，或者Opera的官网，和Opera的源。
 
 #####Define your favorite applications
 
@@ -284,7 +284,7 @@ If your search yields no results, the menu will provide “suggestions” relate
 
 You’ll use some applications more than others, so you’ll quickly find that you want fast access to the applications that you’re using the most. 
 
-一些应用软件您会使用的比较频繁，所以对于这些软件您一定想快点找到并且迅速定位
+一些应用软件您会使用的比较频繁，所以对于这些软件您一定想快点找到并且迅速定位。
 
 The menu lets you define “favorite” applications and keep them on a special menu for easy availability. 
 
@@ -292,15 +292,15 @@ The menu lets you define “favorite” applications and keep them on a special 
 
 Right click on an application of your choice with the menu and select “Show in my favorites”. You can also drag & drop an application on the “Favorites” button which is located on the top-right corner of the menu.
 
-右键单击您选择的应用，并在下拉菜单里选择“放入我的喜爱”，拖拽也同样可以完成。，将应用程序拖拽到你菜单栏右上角的“最喜欢”按钮上。
+右键单击您选择的应用，并在下拉菜单里选择“添加到我的收藏”，拖拽也同样可以完成。将应用程序拖拽到你菜单栏右上角的“收藏”按钮上。
 
 Click on the “Favorites” button in the top-right corner of the menu and you should now see your favorite applications (click the button again to switch back to the complete application list).
 
-点击菜单栏右上角的“最喜欢”按钮，你将会看到你最喜欢的应用程序（再次单击将回到应用列表）
+点击菜单栏右上角的“收藏”按钮，你将会看到你最喜欢的应用程序（再次单击将回到应用列表）。
 
 When the favorites section of the menu is active, you can reorganize the applications. Dragging and dropping allows you to change their order, while the right click menu lets you insert spaces and separators, as well as removing items (including spaces and separators) from the menu.
 
-当最喜欢的部分完成后，你可以重新排列应用。您可以通过拖拽来改变他们的顺序，右键单击菜单栏可以让您插入空格和分割符，同样您可以在菜单栏中删除他们（包括空格和分割符）
+当最喜欢的部分完成后，你可以重新排列应用。您可以通过拖拽来改变他们的顺序，右键单击菜单栏可以让您插入空格和分割符，同样您可以在菜单栏中删除他们（包括空格和分割符）。
 
 ##### Make your own shortcuts
 
@@ -316,7 +316,7 @@ If you don’t like the idea of having “Favorite” applications, you can simp
 
 You can right-click on any application in the menu and select “Launch when I log in”. The application will then be launched automatically each time after you log in. This can be disabled by following the same procedure again.
 
-您可以右键单击任何菜单栏中的应用程序并且选择“登录时启动”。这个程序将会在您每次登录时自动启动。将同样的过程重复一遍就可以禁用开机启动了。
+您可以右键单击任何菜单栏中的应用程序并且选择“登录系统时启动”。这个程序将会在您每次登录时自动启动。将同样的过程重复一遍就可以禁用开机启动了。
 
 ##### Change the appearance of  the menu
 
