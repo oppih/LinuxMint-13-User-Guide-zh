@@ -126,9 +126,8 @@ Now let’s see how we could have installed Opera using the APT command line too
 接下来让我们看看怎么使用命令行工具来安装Opera。
 
 Open the menu and select “Terminal”. Then type the following command:
-打来主菜单，选择“终端”，输入以下的命令。
 
-    apt install opera
+打来主菜单，选择“终端”，输入以下的命令。
 
     apt install opera
 
@@ -191,8 +190,6 @@ Open the menu and select “Terminal”. Then type the following command:
 打开主菜单，选择终端，输入下面的命令
 
     apt remove opera
-
-    apt remove opera
     
 Note: Make sure synaptic is closed before using APT. Synaptic is using APT in the background so both can’t run at the same time. 
 
@@ -231,12 +228,15 @@ Linux Mint comes with a tool called the Update Manager. It gives more informatio
 
 If you place your mouse pointer on top of it, it will tell you either that your system is up to date or, if it isn't, how many updates are available. 
 
+![update-manager](https://github.com/oppih/LinuxMint-13-User-Guide-zh/raw/master/images/update-manager.png)
+
 If you click on the lock icon, the Update Manager opens and shows you the updates that are available. The interface is very easy to use. For each package update you can read the description, the changelog (this is where developers explain their changes when they modify the package), and eventually if Linux Mint assigned warnings or extra information about the updates. You can also see which version is currently installed on your computer and which version is available for you to update to. Finally, you can see the stability level assigned to the package update. Each package update brings improvements or fixes security issues but that doesn’t mean they’re risk-free and can’t introduce new bugs. The stability level is assigned to each package by Linux Mint and gives you an indication of how safe it is for you to apply an update. 
 
 Of course you can click on the columns to sort by stability level, status, package name or by version. You can select all updates or unselect all of them by using the “Clear” and “Select All” buttons. 
 
 Level 1 and Level 2 updates are risk-free and you should always apply them. Level 3 updates “should be safe” but, although we recommend you take them, make sure you look over them on the list of updates. If you experience a problem with a particular Level 3 update, tell the Linux Mint development team so they can take measures to make that update a Level 4 or a Level 5  so as to warn or even discourage others against applying it.  
 
+![preferences-update-manager](https://github.com/oppih/LinuxMint-13-User-Guide-zh/raw/master/images/preferences-update-manager.png)
 
 If you click on the “Preferences” button you should see the screen above. By default the Update Manager tells you about Level 1, 2 and 3 updates. You can decide to make Level 4 and 5 “visible”. This will make more updates appear in the list. If you want to  you can even make Level 4 and 5 updates “safe” (although this is not recommended). This will cause them to be selected by default within the Update Manager. 
 
@@ -270,7 +270,10 @@ The last tab lets you change the icons used by the Update Manager in the system 
 
 If you get errors with the Update Manager (“Can’t refresh list of packages” for instance), you can check the logs. Right click on the lock icon in the system tray and select “Information”. The following screen appears: 
 
+![information-update-manager](https://github.com/oppih/LinuxMint-13-User-Guide-zh/raw/master/images/information-update-manager.png)
 
 In this screen you can see the process ID of the Update Manager, whether it's running with user or root permissions, and the content of its log file.
 
 You can also review the updates that were applied on your system (provided they were applied via the Update Manager) by clicking on “View->History of Updates”.
+
+![history-of-updates](https://github.com/oppih/LinuxMint-13-User-Guide-zh/raw/master/images/history-of-updates.png)

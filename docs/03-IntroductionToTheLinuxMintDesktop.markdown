@@ -26,6 +26,8 @@ MATE版的Mint Linux使用“MATE”桌面，其更加直观和有效。
 
 “桌面设置”是一个专门为Mint Linux开发的工具，我们可以使用它对MATE桌面进行设置，以达到用户所希望的样式。
 
+![desktop-settings](https://github.com/oppih/LinuxMint-13-User-Guide-zh/raw/master/images/desktop-settings.png)
+
 Launch it by clicking on “Menu” (in the bottom-left corner of your screen), then select “Preferences” and click on “Desktop Settings”. 
 
 通过点击“菜单”（位于屏幕左下角）去启动它，然后选择“首选项”，点击“桌面设置”。
@@ -50,13 +52,19 @@ To open the menu click on the “Menu” button at the bottom-left corner of you
 
 ##### “位置” 菜单
 
+![the-places-menu](https://github.com/oppih/LinuxMint-13-User-Guide-zh/raw/master/images/the-places-menu.png)
+
 On the top left corner of the menu you can see a section called “Places” which provides five buttons. These buttons give you quick access to the most important places within your MATE Desktop.
 
 在主菜单的左上角你可以看见一个叫“位置”的区域，它提供了5个按钮，通过这些按钮你可以快速地进入你的MATE桌面里很重要的位置。
 
+![the-computer-place](https://github.com/oppih/LinuxMint-13-User-Guide-zh/raw/master/images/the-computer-place.png)
+
 The “Computer” Place shows you the storage volumes present in your computer. If your partitions are already mounted and “Desktop Settings” is set to show “Mounted Volumes” on the desktop, then you probably don’t need to access this Place very often. However, if you choose not to show the mounted volumes on your desktop, or if you need to mount a partition which is not mounted by default, this Place can prove very useful. 
 
 “计算机”显示你电脑存在的所有存储介质。如果你的分区已经被挂载了并且“桌面设置”中设置在桌面上放置已挂载介质，那你就不需要经常访问这里。但是，如果你没有设置在桌面上显示挂载介质的话，或者你需要挂载一个系统没有默认挂载的介质的话，这里会非常有用。
+
+![the-home-place](https://github.com/oppih/LinuxMint-13-User-Guide-zh/raw/master/images/the-home-place.png)
 
 In contrast, the “Home” Place is one of the menu buttons you’ll probably use the most. If you’ve used MATE before, you’re probably used to clicking on the “Home” icon placed on the desktop. When windows are opened and when the desktop is not completely visible, the menu can prove useful by providing you with a way to quickly access your “Home”. 
 
@@ -84,7 +92,11 @@ There is a section called “System” in the bottom left corner of the menu. Th
 
 在左下角的菜单中有一个子菜单叫“系统”，这里提供了6个按钮。你可以通过这里快速找到系统的特色功能。
 
+![software-manager](https://github.com/oppih/LinuxMint-13-User-Guide-zh/raw/master/images/software-manager.png)
+
 The “Software Manager” button launches the Linux Mint Software Manager. This program is the recommended way to install software in Linux Mint. We will talk more about this feature later on; for now, let's explore the other options. 
+
+![Synaptic](https://github.com/oppih/LinuxMint-13-User-Guide-zh/raw/master/images/Synaptic.png)
 
 “软件管理器”这个按钮可以打开Linux Mint的软件管理器。推荐您使用这种方式来安装软件，我们随后会介绍关于“软件管理器”的更多特色。现在，我们来探索一下其他功能。
 
@@ -92,9 +104,13 @@ The “Package Manager” button launches an application called “Synaptic”. 
 
 这个“包管理器”按钮会打开一个“新立得”的软件。这个软件可以帮助您管理已安装程序或者源中有效的软件包。如果它对你来说暂时没有多少用处，别着急，我们将会在随后讨论软件包和它们的工作细节。。
 
+![control-center](https://github.com/oppih/LinuxMint-13-User-Guide-zh/raw/master/images/control-center.png)
+
 The “Control Center” button launches the MATE Control Center. This application lets you configure every aspect of the MATE Desktop and of the computer in general. We will go through each item within this Control Center at a later time. 
 
 “控制中心”按钮会打开MATE的控制中心。这个软件让你来控制MATE桌面的各个方面和电脑的一般设置。我们随后将会一一介绍。
+
+![terminal](https://github.com/oppih/LinuxMint-13-User-Guide-zh/raw/master/images/terminal.png)
 
 The “Terminal” button launches an application called “Terminal” which lets you enter commands directly using the keyboard. If you’re used to Microsoft Windows you may think that this is old hat, because in Windows the command line hasn't progressed much further than the “DOS prompt” and is hidden away in an accessories menu. One of the ways in which Linux systems differ from Windows systems is that the terminal is quite important in Linux, as it is often used as a way of getting more direct control over one's computer. We’d probably agree that the Terminal isn’t the most visually appealing application included in Linux Mint, but it is worth knowing that it is by far the most powerful, and once learned it’s actually not very hard to use. 
 
@@ -107,6 +123,8 @@ In fact, it is worthwhile understanding that every command that you execute usin
 Sooner or later, though, you will probably have be in a situation which causes you to use the Terminal directly, either to access commands that are not available through any GUI, or to get a job done more efficiently. Yes, you read that right! It can be more efficient to type a single command, for certain tasks, than to open up lots of windows to achieve the same thing. The more you use it, the more you’ll come to actually like it.  Remember how you didn’t like certain things when you were a kid and how you couldn’t do without them now? Terminal is one of these things. In a few weeks, you’ll be completely addicted to it. You'll begin to feel in complete control of your computer. There will be times when you won’t even have to use the Terminal, but you will anyway, because for some tasks it’s faster, more accurate, more versatile and actually simpler to use than equivalent graphical interfaces. And anyone watching you will think you're a complete pro.
 
 迟早你会遇到需要直接操作终端的情形，或者直接使用那些不能通过图形界面执行的命令，或者是你想更有效的完成一个工作。对，你终于明白了！对于一些特定的任务，在终端里输入命令会比打开许多图形程序高效很多。你用命令越多，你会发现越会爱上它。还记得你小的时候不喜欢的东西么，而你现在却离不开他们了。终端就是这样的东西。在几个星期之内，你可能就迷上终端。你感到能完全操控你的电脑。有时你可能都不会用到终端，但是为了使某些任务更加的精确，快速，通用的，实际上比图形界面更加简单，你会用到终端。并且，每个人都会觉得你是计算机专家的。
+
+![logout](https://github.com/oppih/LinuxMint-13-User-Guide-zh/raw/master/images/logout.png)
 
 The “Logout” button launches a dialog which lets you logout or switch users. 
 
@@ -264,7 +282,7 @@ In “Sound & Video” you can find the following software:
 
 ##### The “Search” field
 
-######搜索框
+##### 搜索框
 
 If you can’t remember how to find a particular application within the menu or if you want to get quicker access to it you can use the search feature. Simply click on “Menu” in the bottom-left corner of your screen and start typing the name or a description of the application you’re looking for. 
 
@@ -278,9 +296,9 @@ If your search yields no results, the menu will provide “suggestions” relate
 
 如果你没有找到结果，菜单栏将会提供与你的关键字类型相关的“建议”，如果你的类型是“opera”并且你没有在系统里安装Opera web浏览器，菜单栏将会显示一个安装Opera的按钮，或者Opera的官网，和Opera的源。
 
-#####Define your favorite applications
+##### Define your favorite applications
 
-#####设定你喜欢的应用
+##### 设定你喜欢的应用
 
 You’ll use some applications more than others, so you’ll quickly find that you want fast access to the applications that you’re using the most. 
 
@@ -304,7 +322,7 @@ When the favorites section of the menu is active, you can reorganize the applica
 
 ##### Make your own shortcuts
 
-#####制定自己的快捷键
+##### 制定自己的快捷键
 
 If you don’t like the idea of having “Favorite” applications, you can simply use your panel or your desktop to achieve similar results, (namely, giving yourself quick access to your applications). Simply drag & drop the application of your choice from the menu to your panel or to your desktop.
 
@@ -325,6 +343,8 @@ You can right-click on any application in the menu and select “Launch when I l
 You can customize the menu in many ways.  Right click on “Menu” and select “Preferences”. 
 
 您可以通过很多方法制定菜单栏。右键单击“菜单”选择“首选项”
+
+![menu-preferenceshttps://github.com/oppih/LinuxMint-13-User-Guide-zh/raw/master/images/menu-preferences.png]()
 
 The configuration tool for the menu appears. Here, you can modify almost every aspect of the Linux Mint menu. Most of the settings take effect immediately, but some require the menu to be restarted (this can be accomplished by right clicking the menu button and selecting “Reload Plugins”). 
 

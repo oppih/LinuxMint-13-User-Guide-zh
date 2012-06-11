@@ -37,6 +37,8 @@ We all take notes. Whether it's an address given by someone over the phone, an e
 
 Tomboy Notes is a very easy tool to use. By clicking on it you get a list of all your notes. You can create new notes by clicking on “Create New Note”. 
 
+![Tomboy](https://github.com/oppih/LinuxMint-13-User-Guide-zh/raw/master/images/Tomboy.png)
+
 Tomboy Notes使用起来很简单。通过打开它，您会获得您的笔记列表。您可以点击“创建新笔记”来新建一个笔记。
 
 A new note opens up. By changing its title you'll also change its name. You can write whatever you want in the note and close it. The content you wrote in your note will always be accessible through Tomboy Notes; You don't need to save anything and you can even reboot or turn off the computer. Again, your note is saved automatically as you're writing it. 

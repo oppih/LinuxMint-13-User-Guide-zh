@@ -243,6 +243,7 @@ Place the DVD in the drive and restart the computer. You should now see the foll
 
 将DVD放入光驱中然后重启电脑。您将会看到以下界面：
 
+![boot-screen](https://github.com/oppih/LinuxMint-13-User-Guide-zh/raw/master/images/boot-screen.png)
 
 Note: If you don’t see this screen and your PC boots as usual it’s probably because your BIOS is not set to boot on DVD. Restart the computer and press F1, F2, Delete, or Escape (or whatever key lets you enter the BIOS configuration) and change your BIOS settings to tell your computer to boot from its DVD drive. 
 
@@ -256,9 +257,13 @@ From the first screen choose the default “Start Linux Mint” option and press
 
 在看到的第一个画面中，选择默认的“Start Linux Mint”选项，然后按下Enter键。
 
+![start-screen](https://github.com/oppih/LinuxMint-13-User-Guide-zh/raw/master/images/start-screen.png)
+
 After a little while the live system should be ready and you should see the desktop:
 
 稍等一会，当live系统准备完成后，你就可以看到桌面了：
+
+![desktop](https://github.com/oppih/LinuxMint-13-User-Guide-zh/raw/master/images/desktop.png)
 
 At this stage Linux Mint is not installed on your computer, it’s simply running from the DVD. The system you have in front of you is, however, almost exactly the same as the one you will have on your computer after the installation is finished. 
 
@@ -272,6 +277,8 @@ When you are ready, double-click on the “Install Linux Mint” icon located on
 
 当你准备好安装的时候，双击桌面上的“Install Linux Mint”图标。接着安装向导就会出现：
 
+![installer](https://github.com/oppih/LinuxMint-13-User-Guide-zh/raw/master/images/installer.png)
+
 If you haven’t read the release notes yet, and you have an Internet connection, then this an ideal opportunity to review them; simply click on the underlined link. It is highly recommended that users read the release notes prior to installation in order to advise themselves of new features, as well as any issues that might affect their particular hardware configuration.
 
 如果你还没有阅读发行日志，并且你连接着网络，那这是一次回顾它的好机会；单击有下划线的链接即可。我们强烈推荐用户先阅读发行日志再安装系统，这是为了让用户了解新的特性，以及任何可能因部分硬件配置产生的问题。
@@ -280,9 +287,13 @@ Select your language and press the “Forward” button.
 
 下一步是选择你想使用的语言并按下”Forward”按钮。
 
+![preparing](https://github.com/oppih/LinuxMint-13-User-Guide-zh/raw/master/images/preparing.png)
+
 In the next screen, make sure you're connected to a power source (if you're using a laptop), the Internet and that you have the recommended amount of disk space. Then press the “Forward” button. 
 
 在接下来的画面中，请确保你已经接上电源（如果你正在使用笔记本电脑），连接着网络还有足够的硬盘空间。接着按下“Forward”按钮。
+
+![installation-type](https://github.com/oppih/LinuxMint-13-User-Guide-zh/raw/master/images/installation-type.png)
 
 In the next screen you can assign your entire hard drive to Linux Mint or install it alongside other operating systems. Alternatively, you can also define and assign the partitions manually. 
 
@@ -300,6 +311,8 @@ Choose the appropriate option and click on the “Forward” button.
 
 选择合适的选项并按下“Forward”按钮。
 
+![partition](https://github.com/oppih/LinuxMint-13-User-Guide-zh/raw/master/images/partition.png)
+
 The next screen asks you to confirm. When ready press the “Install Now” button to start the installation. 
 
 下一个画面会让你确认操作。当你准备好就可以点击“Install Now”按钮开始安装。
@@ -308,6 +321,7 @@ At this stage, the installation is going on in the background and the installer 
 
 眼下，安装程序将会在后台运行，安装向导会询问你一些安装配置问题：
 
+![timezone](https://github.com/oppih/LinuxMint-13-User-Guide-zh/raw/master/images/timezone.png)
 
 Choose your location on the map by clicking on the city which is the nearest to you. The purpose of this step is to identify your time zone. Make sure the “Current time” appears correctly and click the “Forward” button.
 
@@ -317,17 +331,20 @@ Note: Sometimes the installer doesn't properly handle Summer/Winter time adjustm
 
 注意:有时候安装向导不能精确地调整夏令时或者冬令时，所以即使你选择了正确的城市，也可能有一小时左右的时间差。此时还是忽略它吧，不过当你安装完Linux Mint重启进入桌面后，要确认时间是正确的。
 
+![keyboard-layout](https://github.com/oppih/LinuxMint-13-User-Guide-zh/raw/master/images/keyboard-layout.png)
+
 Select your keyboard layout. If you are not sure about exactly which layout matches the keyboard you have, click on the text field at the bottom of the screen and start typing with your keyboard. Make sure the keys you press match the characters that appear in the text field in order to ensure you have selected the right keyboard layout. Some layouts only differ with respect to accents, numbers and punctuation signs, so make sure to test these as well. 
 
 选择你的键盘布局，如果你不清楚你的键盘适合哪种键盘布局，那就点击屏幕底部的文本区，再用你的键盘打一些字。如果说你敲击的键和文本区出现的字符对应，就说明你选择了正确的键盘布局。一些布局只在引号，数字和标点符号之间有所不同，所以也一定要测试这些键。
 
 When you’re ready click the “Forward” button. 
 
+完成后点击“Forward”按钮。
 
 Enter your real name and a username and password. Every time you’ll use Linux Mint you’ll use your account with this username and password. Once Linux Mint is installed you’ll be able to define other accounts if other people are to use this computer. 
 Also give your computer a name. This name will be used by your computer on the network or in various places of the system. If you’ve never really thought about naming your computers, then now is the time. People commonly pick flower (dahlia, rose, tulip) or planet (mars, jupiter, pluto) names for the computers on their network. It’s entirely up to you what you want to use, but make sure to pick a name you like and that you will easily remember. 
 
-输入你的真实性名以及用户名和密码。以后你每次使用Linux Mint的时候，都会使用这个用户账号和密码的。一旦Linux Mint装好，如果还有其他人要使用你的电脑的话， 你就能创建其它的账号。
+输入你的真实姓名名以及用户名和密码。以后你每次使用Linux Mint的时候，都会使用这个用户账号和密码的。一旦Linux Mint装好，如果还有其他人要使用你的电脑的话， 你就能创建其它的账号。
 当然也要给你的电脑起个名字。这个名字将会用于网络或者别的地方的系统。如果你从来没想过给你的电脑命名，那现在是个好机会。大多数人通常会选择花（大丽花，玫瑰，郁金香）或者星球（火星，木星，冥王星）的名字来作为电脑在网络中的名字。这完全由你决定，但是要确保选择一个你喜欢的而且也容易记的名字。
 
 Note: Capital letters, spaces and special characters are not permitted in the username or in the name of the computer.
@@ -342,6 +359,8 @@ When you’re ready click on the “Forward” button.
 
 完成后点击“Forward”按钮。
 
+![yourname](https://github.com/oppih/LinuxMint-13-User-Guide-zh/raw/master/images/yourname.png)
+
 The installer might detect other operating systems on your computer and ask you if you want to migrate some personal information. Typically this allows you to migrate bookmarks, contacts, favorites and other sorts of personal information from other operating systems installed on your hard disk drive into the newly installed Linux Mint.
 
 安装向导会检测出你电脑上其它的操作系统，并且会询问你是否要移动一些个人信息。通常它会将你的书签、通讯录、收藏夹以及其它操作系统上的一些个人信息移动到新安装的Linux Mint系统里。
@@ -350,6 +369,7 @@ When you’re ready click on the “Forward” button.
 
 完成后点击“Forward”按钮。
 
+![installing](https://github.com/oppih/LinuxMint-13-User-Guide-zh/raw/master/images/installing.png)
 
 The installation should take between 10 and 15 minutes. 
 
@@ -382,6 +402,8 @@ Upon reboot, if you have more than one operating system installed, you should se
 Once Linux Mint is finished loading you should see a new screen inviting you to enter your username and password. This screen is the “MDM Login Manager” and is commonly called “MDM”. Enter the password you chose during the installation.
  
 一旦Linux Mint完成加载，你就会看到一个新的登录界面，需要你输入用户名和密码。这个画面简称为“MDM Login Manager”，通常被叫做“MDM”。输入你在安装时设置的密码。
+
+![login-screen](https://github.com/oppih/LinuxMint-13-User-Guide-zh/raw/master/images/login-screen.png)
 
 Note: By default, your “root” password is the same as the password you chose during the installation. If you do not know what this means, then don't worry about it.
 

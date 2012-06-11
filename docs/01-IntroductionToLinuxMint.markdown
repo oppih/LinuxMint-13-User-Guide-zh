@@ -1,3 +1,5 @@
+![Linux-Mint-logo](https://github.com/oppih/LinuxMint-13-User-Guide-zh/raw/master/images/Linux-Mint-logo.png)
+
 ## Introduction to Linux Mint
 
 ## Linux Mint简介
