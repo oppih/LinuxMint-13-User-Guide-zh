@@ -1,4 +1,4 @@
-﻿## Installation of Linux Mint
+## Installation of Linux Mint
 
 ## Linux Mint的安装
 You can download the Linux Mint operating system for free. It comes as an ISO file which you need to burn to a blank DVD. The liveDVD is then bootable and provides a fully-functional operating system which you can try without affecting your PC. In layman's terms, when you put Linux Mint on a DVD and place it into your computer, you can try it out while leaving your current system intact. 
@@ -270,11 +270,11 @@ Have fun with it and see if you like it. Bear in mind that when running from the
 
 When you are ready, double-click on the “Install Linux Mint” icon located on the desktop. The Installer appears: 
 
-当你准备好安装的时，双击桌面上的“Install Linux Mint”图标。接着安装向导就会出现：
+当你准备好安装的时候，双击桌面上的“Install Linux Mint”图标。接着安装向导就会出现：
 
 If you haven’t read the release notes yet, and you have an Internet connection, then this an ideal opportunity to review them; simply click on the underlined link. It is highly recommended that users read the release notes prior to installation in order to advise themselves of new features, as well as any issues that might affect their particular hardware configuration.
 
-如果你还没有阅读发行日志，并且你连接着网络，那这是一次回顾它的好机会；单击有下划线的链接即可。我们强烈推荐用户先阅读发行日志再安装系统，这是为了让用户了解新的特性，以及任何可能对他们的部分硬件配置产生影响的问题。
+如果你还没有阅读发行日志，并且你连接着网络，那这是一次回顾它的好机会；单击有下划线的链接即可。我们强烈推荐用户先阅读发行日志再安装系统，这是为了让用户了解新的特性，以及任何可能因部分硬件配置产生的问题。
 
 Select your language and press the “Forward” button.
 
@@ -315,7 +315,7 @@ Choose your location on the map by clicking on the city which is the nearest to 
 
 Note: Sometimes the installer doesn't properly handle Summer/Winter time adjustments, so even by selecting the proper city you might see a difference of an hour or so with the correct time. Simply ignore this at this stage and remember to make sure that the time is correct after you reboot in your newly installed Linux Mint desktop.
 
-注意:有时候安装向导不能精确地调整夏令时或者冬令时，所以即使你选择了正确的城市，也可能有一小时左右的时间差。此时还是忽略它吧，不过当你安装完Linux Mint重启进如桌面后，要确认时间是正确的。
+注意:有时候安装向导不能精确地调整夏令时或者冬令时，所以即使你选择了正确的城市，也可能有一小时左右的时间差。此时还是忽略它吧，不过当你安装完Linux Mint重启进入桌面后，要确认时间是正确的。
 
 Select your keyboard layout. If you are not sure about exactly which layout matches the keyboard you have, click on the text field at the bottom of the screen and start typing with your keyboard. Make sure the keys you press match the characters that appear in the text field in order to ensure you have selected the right keyboard layout. Some layouts only differ with respect to accents, numbers and punctuation signs, so make sure to test these as well. 
 
@@ -332,7 +332,7 @@ Also give your computer a name. This name will be used by your computer on the n
 
 Note: Capital letters, spaces and special characters are not permitted in the username or in the name of the computer.
 
-注意：大写字母，空格 以及特殊字符不能作为用户名或者电脑的名字。
+注意：大写字母，空格以及特殊字符不能作为用户名或者电脑的名字。
 
 If you're the only one using the computer and you want to bypass the login screen, check the option “Log in automatically”.  
 
@@ -344,7 +344,7 @@ When you’re ready click on the “Forward” button.
 
 The installer might detect other operating systems on your computer and ask you if you want to migrate some personal information. Typically this allows you to migrate bookmarks, contacts, favorites and other sorts of personal information from other operating systems installed on your hard disk drive into the newly installed Linux Mint.
 
-安装向导会检测出你电脑上其它的操作系统，并且会询问你是否要移动一些个人信息。通常它允许你将书签，通讯录，收藏夹以及其它操作系统上的一些个人信息移动到新安装的Linux Mint系统里。
+安装向导会检测出你电脑上其它的操作系统，并且会询问你是否要移动一些个人信息。通常它会将你的书签、通讯录、收藏夹以及其它操作系统上的一些个人信息移动到新安装的Linux Mint系统里。
 
 When you’re ready click on the “Forward” button. 
 
