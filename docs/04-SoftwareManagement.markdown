@@ -65,7 +65,7 @@ Some of the most popular applications that are not installed by default in Linux
 
 The easiest way to install software in Linux Mint is to use the Software Manager. It is built on top of the package technology we discussed earlier, but makes things easier to understand, as it allows you to install programs rather than packages (though, remember, it is still using the package system in the background, so it still has the same benefits).
 
-在Linux Mint中安装软件最简单的方法就是使用软件管理器。她是在建立在包管理基础之上的技术，使很多东西简单化，让您安装软件而不是包（尽管如此，记住了，她后台使用的还是包管理器，所以她也有和包管理器相同的益处）。
+在Linux Mint中安装软件最简单的方法就是使用软件管理器。它是在建立在包管理基础之上的技术，使很多东西简单化，让您安装软件而不是包（尽管如此，记住了，它后台使用的还是包管理器，所以它也有和包管理器相同的益处）。
 
 Open the menu and select “Software Manager”. 
 
@@ -92,14 +92,14 @@ For instance, to install the “gftp” package:
 - Press the “Up” arrow to highlight the “Install gftp” button
 - Press Enter
 
-- 按下组合键CTRL+SUPER_L来打来菜单
+- 按下组合键CTRL+SUPER_L来打开菜单
 - 输入“gftp”
 - 按“上”箭头来使“install gftp”高亮
 - 按回车键
 
 Did we mention how great package management is yet?
 
-- 怎么样我们谈到的软件管理器还不错吧？
+- 怎么样，我们谈到的软件管理器还不错吧？
 
 #### Synaptic & APT
 
@@ -119,7 +119,7 @@ Open the menu and select “Package Manager”.
 
 Click on the “Search” button and type “opera”. Then go through the list of packages and find the one corresponding to the Opera Web Browser. Tick the box and select “Mark for Installation” then click on the “Apply” button. 
 
-点击搜索按钮，输入“Opera”。然后在列表里找寻对应Opera浏览器的项目，把勾给挑上，并“标记为安装” ，单击“应用”按钮。
+点击搜索按钮，输入“Opera”。然后在列表里找寻对应Opera浏览器的项目，并勾选“标记为安装” ，单击“应用”按钮。
 
 Now let’s see how we could have installed Opera using the APT command line tool. 
 
@@ -133,7 +133,7 @@ Open the menu and select “Terminal”. Then type the following command:
 
 Note: Make sure synaptic is closed before using APT. Synaptic is using APT in the background so both can’t run at the same time. The same goes for the Software Manager.
 
-注意：确保你的新立得已经关闭了，因为新立得的后台运行得实际上是APT工具，不可以同时运行。同理软件管理器也是如此。
+注意：确保你的新立得已经关闭了，因为新立得的后台运行的实际上是APT工具，二者不可以同时运行。同理软件管理器也是如此。
 
 As you can see APT is extremely easy to use but it’s not graphical. It’s OK. If you’re starting with Linux you probably prefer to deal with a graphical interface (that's why they're there) but as time goes on you’ll prefer things to be fast and efficient and as you can see the fastest way to install Opera is to type “apt install opera”. It can’t be simpler than that. 
 
@@ -141,7 +141,7 @@ As you can see APT is extremely easy to use but it’s not graphical. It’s OK.
 
 There is one important difference between the Software Manager and Synaptic/APT though. With Synaptic and APT you basically deal with packages. In our example the Opera application was very simple and was only made of one package which name was also “opera”, but this will not always be the case, and sometimes you might not know what the name of the package is. Sometimes you might not even have access to the packages for a particular application. 
 
-软件管理器,新立得和APT它们之间的一个重要差别在于，新立得和APT主要用来处理包，在我们的例子中，Opera非常简单，她本身只是由一个包组成的，但是情况并不总是这样的,一些情况下，您并不知道包的名字。有时候您甚至可能接触不到某个软件的包。
+软件管理器,新立得和APT它们之间的一个重要差别在于，新立得和APT主要用来处理包，在我们的例子中，Opera非常简单，它本身只是由一个包组成的，但是情况并不总是这样的,一些情况下，您并不知道包的名字。有时候您甚至可能接触不到某个软件的包。
 
 The Software Manager is different because it lets you install “applications” by getting the right “packages” for you, not only from the repositories (packages databases) that Synaptic and APT have access to, but also from other places on the Internet. 
 
@@ -155,7 +155,7 @@ So you might use the Software Manager for two different reasons:
 - Because it can actually install applications you don’t have access to using other tools. 
 
 - 您不习惯新立得和APT
-- 因为她能准确的安装好应用软件，在您不使用其他工具的情况下。
+- 因为它能准确的安装好应用软件，而您不需使用其他工具。
 
 ### Remove applications
 
@@ -171,7 +171,7 @@ Removing an application is quite easy in Linux Mint. Simply highlight the applic
 
 The menu finds the packages and dependencies related to the application you selected. 
 
-在菜单中会找到您要删除的软件包和她的依赖关系。
+在菜单中会找到您要删除的软件包和它的依赖关系。
 
 Click “Remove” and the application will be uninstalled. 
 
@@ -183,7 +183,7 @@ Click “Remove” and the application will be uninstalled.
 
 Another way to remove applications is by using APT. Again, we’re talking command-line utility here, but see how surprisingly easy this is: 
 
-另外一个删除软件的方法就是使用APT命令，我们又在讨论命令行工具了。让我们来看看她是多么简单而令人惊讶吧。
+另外一个删除软件的方法就是使用APT命令，我们又在讨论命令行工具了。让我们来看看它是多么简单而令人惊讶吧。
 
 Open the menu and select “Terminal”. Then type the following command:
 
@@ -193,7 +193,7 @@ Open the menu and select “Terminal”. Then type the following command:
     
 Note: Make sure synaptic is closed before using APT. Synaptic is using APT in the background so both can’t run at the same time. 
 
-注意：确保你的新立得已经关闭了，因为新立得的后台运行得实际上是APT工具，不可以同时运行。
+注意：确保你的新立得已经关闭了，因为新立得的后台运行的实际上是APT工具，它们不可以同时运行。
 
 And that’s it. With one single command you’ve removed Opera from your computer. 
 Synaptic
@@ -202,7 +202,7 @@ Synaptic
 
 You can also use Synaptic to remove packages... Linux is all about choice so let’s see how to do this.
 
-你也可以使用新立得来删除包，因为Linux下总有很多选择，让我们来看看怎么使用的它吧： 
+你也可以使用新立得来删除包，因为Linux下总有很多选择，让我们来看看怎么使用它吧： 
 
 Open the menu and select “Package Manager”. 
 
@@ -210,7 +210,7 @@ Open the menu and select “Package Manager”.
 
 Click on the “Search” button and select “opera”. Then go through the list of packages and find the one corresponding to the Opera Web Browser. Tick the box and select “Mark for Removal” then click on the “Apply” button.
 
-点击搜索按钮，选择“Opera”，然后查看包的列表，找对应于Opera浏览器的选项。把勾挑上，右键选择标记为删除，单击“应用”按钮即可。
+点击搜索按钮，选择“Opera”，然后查看包的列表，找对应于Opera浏览器的选项。勾选它们，右键选择标记为删除，单击“应用”按钮即可。
 
 ### Update your system and your applications
 
@@ -218,7 +218,7 @@ Click on the “Search” button and select “opera”. Then go through the lis
 
 If a new version of any package installed on your computer is made available you can upgrade to it. It may be a security update for some component of the operating system, it may be an optimization in one specific library or it may even be a newer version of Firefox. Basically, your system is made of packages and any part of it can be updated by updating some of those packages. This means replacing the current package with a newer version. 
 
-如果安装在您电脑上的包有新版本了，您可以升级最新版。她可能是操作系统一个组件的更新，可能是某个库的优化，也可能是火狐浏览器的一个新版本。基本上，你的系统是由包组成的，任何一部分都可以通过升级包来更新。这就意味着用一个新版本的包替换当前的版本。
+如果安装在您电脑上的包有新版本了，您可以升级最新版。它可能是操作系统一个组件的更新，可能是某个库的优化，也可能是火狐浏览器的一个新版本。基本上，你的系统是由包组成的，任何一部分都可以通过升级包来更新。这就意味着用一个新版本的包替换当前的包。
 
 There are many ways to do this but only one of them is recommended. 
 
@@ -230,7 +230,7 @@ You could use APT to upgrade all your packages with one simple command (“apt u
 
 Some parts of the system are safe to update and some others aren’t. For instance, by updating your kernel (the part which is responsible among other things for hardware recognition) you might break your sound support, your wireless card support or even some applications (such as VMWare and Virtualbox) which are closely linked to the kernel. 
 
-系统的部分包可以安全更新，但是有一些就不行了。例如，更新您的内核（她负责很多事情，比如说硬件的识别）您可能会损坏声卡的支持，网卡的支持甚至一些和系统内核相关的应用程序（比如VMWare 和 Virtualbox）。
+系统的部分包可以安全更新，但是有一些就不行了。例如，更新您的内核（它负责很多事情，比如说硬件的识别）您可能会损坏声卡的支持，网卡的支持甚至一些和系统内核相关的应用程序（比如VMWare 和 Virtualbox）。
 
 #### Using the Update Manager
 
@@ -238,13 +238,13 @@ Some parts of the system are safe to update and some others aren’t. For instan
 
 Linux Mint comes with a tool called the Update Manager. It gives more information about updates and lets you define how safe an update must be before you want to apply it. It looks like a shield and sits on the bottom-right corner of your screen. 
 
-Linux Mint 有一个叫“更新管理器”的工具。她提供了许多关于更新的信息,在更新之前让您决定怎么安全地更新。她看起来像一个盾牌，坐在您屏幕的右下角。
+Linux Mint 有一个叫“更新管理器”的工具。它提供了许多关于更新的信息,在更新之前让您决定怎么安全地更新。它看起来像一个盾牌，坐在您屏幕的右下角。
 
 If you place your mouse pointer on top of it, it will tell you either that your system is up to date or, if it isn't, how many updates are available. 
 
 ![update-manager](https://github.com/oppih/LinuxMint-13-User-Guide-zh/raw/master/images/update-manager.png)
 
-如果您将鼠标移动到上边,她会告诉您系统是否有更新,如果有的话,指出有什么可用的更新。
+如果您将鼠标移动到上边,它会告诉您系统是否有更新,如果有的话,指出有什么可用的更新。
 
 If you click on the lock icon, the Update Manager opens and shows you the updates that are available. The interface is very easy to use. For each package update you can read the description, the changelog (this is where developers explain their changes when they modify the package), and eventually if Linux Mint assigned warnings or extra information about the updates. You can also see which version is currently installed on your computer and which version is available for you to update to. Finally, you can see the stability level assigned to the package update. Each package update brings improvements or fixes security issues but that doesn’t mean they’re risk-free and can’t introduce new bugs. The stability level is assigned to each package by Linux Mint and gives you an indication of how safe it is for you to apply an update. 
 
@@ -256,7 +256,7 @@ Of course you can click on the columns to sort by stability level, status, packa
 
 Level 1 and Level 2 updates are risk-free and you should always apply them. Level 3 updates “should be safe” but, although we recommend you take them, make sure you look over them on the list of updates. If you experience a problem with a particular Level 3 update, tell the Linux Mint development team so they can take measures to make that update a Level 4 or a Level 5  so as to warn or even discourage others against applying it.  
 
-1,2 级别的更新通常是没有危险的,你可以选择更新。3 级别的更新 “应该是安全的”，但是我们建议你在更新表里仔细查看。如果你曾经在 3 级别上的更新出现过问题,请告诉 Linux Mint 研究小组,以便他们采取措,把这个包放在 4,5 级别里,好警告其他用户不要进行这些更新。
+1,2 级别的更新通常是没有危险的,你可以选择更新。3 级别的更新 “应该是安全的”，但是我们建议你在更新表里仔细查看。如果你曾经在 3 级别上的更新出现过问题,请告诉 Linux Mint 研究小组,以便他们采取措施,把这个包放在 4,5 级别里,好警告其他用户不要进行这些更新。
 
 ![preferences-update-manager](https://github.com/oppih/LinuxMint-13-User-Guide-zh/raw/master/images/preferences-update-manager.png)
 
@@ -266,7 +266,7 @@ If you click on the “Preferences” button you should see the screen above. By
 
 The Update Manager only counts “safe” updates. So when it tells you your system is up to date, it means there are no updates available assigned with a level that you defined as being “safe”. 
 
-更新管理器只计算“安全”的更新。因此，当她提示你的系统已经是最新,意味着在你所定义的安全级别中已经没有其他更新。
+更新管理器只计算“安全”的更新。因此，当它提示你的系统已经是最新,意味着在你所定义的安全级别中已经没有其他更新。
 
 The Update Manager only shows “visible” updates in the list. 
 
@@ -282,11 +282,11 @@ The “Auto-Refresh” tab allows you to define how often the Update Manager che
 
 The “Update Method” tab lets you define how the Update Manager checks for new updates. 
 
-通过“更新方法”标签页你可以设置让更新管理器如何检查最新的更新。 
+通过“更新方式”标签页你可以设置让更新管理器如何检查最新的更新。 
 
 The “Startup delay” is the amount of time the Update Manager waits before checking for an Internet connection. This delay is used to give the Network Manager an opportunity to establish a connection when the computer starts.
 
-“开启延时”是指更新管理器开启之前检查网络链接的时间。计算机启动时，这个延迟时间给网络管理器一个机会建立网络链接。
+“启动延时”是指更新管理器开启之前检查网络链接的时间。计算机启动时，这个延迟时间给网络管理器一个机会建立网络链接。
 
 You can also define which domain name is used by the Update Manager to check the connection to the Internet. The Update Manager will try to ping this domain before looking for updates.
 
@@ -294,7 +294,7 @@ You can also define which domain name is used by the Update Manager to check the
 
 The “Include dist-upgrade packages” option allows you to define whether the Update Manager should install new dependencies or not. For instance if package A version 1 was installed on your computer and package A version 2 became available, but version 2 had a new dependency on package B which isn’t installed on your computer… what would happen?
 
-“包含间接升级包” 选项让您选择是否让更新管理器建立新的包依赖关系。例如,包 A 的 1 版本已经安装在系统里，现在包 A 的 2 版本可用，但是 2 版本对 B 包有依赖，而 B 包又不存在电脑上。那该怎么办呢?
+“包括需要安装或删除其他软件包的更新” 选项让您选择是否让更新管理器建立新的包依赖关系。例如,包 A 的 1 版本已经安装在系统里，现在包 A 的 2 版本可用，但是 2 版本对 B 包有依赖，而 B 包又不存在电脑上。那该怎么办呢?
 
 If you left this checkbox unchecked, version 2 would not appear as an update in the list of updates. 
 
@@ -302,7 +302,7 @@ If you left this checkbox unchecked, version 2 would not appear as an update in 
 
 If you checked this checkbox, it would, and if selected it would install packageB as a dependency. 
 
-如果你选中这个复选框，她就会安装 B 包来作为依赖。
+如果你选中这个复选框，它就会安装 B 包来作为依赖。
 
 Be careful with this option as dependency can install new packages on your behalf but they can also sometimes remove packages you already have installed.  
 
@@ -310,7 +310,7 @@ Be careful with this option as dependency can install new packages on your behal
 
 In the “Ignored packages” tab you can define packages for which you do not want to receive updates. “?” and “*” wildcard characters are supported.
 
-在“忽略包”标签页中,可以设置您不想接受更新的包,可以使用“?”和“*”等通配符。
+在“忽略的软件包”标签页中,可以设置您不想接受更新的包,可以使用“?”和“*”等通配符。
 
 The “Proxy” tab lets you define proxy settings.
 
@@ -318,7 +318,7 @@ The “Proxy” tab lets you define proxy settings.
 
 The last tab lets you change the icons used by the Update Manager in the system tray. 
 
-最后一个标签是让你设置更新管理器在系统托盘里的图标的。
+最后一个标签页"图标"是让您设置更新管理器在系统托盘里的图标的。
 
 If you get errors with the Update Manager (“Can’t refresh list of packages” for instance), you can check the logs. Right click on the lock icon in the system tray and select “Information”. The following screen appears: 
 
@@ -338,4 +338,4 @@ In this screen you can see the process ID of the Update Manager, whether it's ru
 
 You can also review the updates that were applied on your system (provided they were applied via the Update Manager) by clicking on “View->History of Updates”.
 
-你还可以查看你系统已经应用的更新情况(通过更新管理器提供的),通过单击“查看->更新历史”来查看。
+你还可以查看你系统已经应用的更新情况(通过更新管理器提供的),通过单击“查看->更新的历史记录”来查看。
