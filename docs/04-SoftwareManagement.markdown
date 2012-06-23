@@ -1,161 +1,113 @@
-##Software Management
+## 软件管理
 
-### Package Management in Linux Mint
+### Linux Mint中的软件包管理
 
-If you have installed Linux for the first time, then you may not be familiar with the concept of organizing software into “packages”. You will soon become familiar with package management and appreciate the advantages it offers in terms of security, control and ease of use.
+如果您是第一次安装 Linux 操作系统，那么可能会对把软件打成软件“包”的概念的不甚了解。不过您会很快熟悉这种软件包管理方式，并且会赞赏它在安全性、可控性和易用性上带来的优势。
 
-We have tried to make it so that all or most of your hardware was detected and drivers were installed automatically so that your computer would work out of the box. We have also tried to make it so that you could do many of the things you want to without having to look around for third party software on websites. You may have noticed that your Linux Mint installation already has a full office suite, a professional-quality image-editing solution, an IM and an IRC client, a disk burner, and several media players (as well as many other basic accessories). Relax, it's okay! You haven't stolen anything! This is what free software is all about! And the truly great thing about package management in Linux Mint and generally is that you should never need to look far and wide for extra software, even when the time comes that you do want more functionality from your Linux Mint system. 
+我们努力做到让系统在安装时检测到您电脑上所有或绝大多数的硬件设备并自动安装驱动程序，这样就可以“开箱即用”。另外系统也自带了许多软件使您不必再费力从繁杂的网站上寻找第三方软件来完成许多工作。您可能会发现Linux Mint已经集成了一套完整的Office工具、一个专业水准的图形处理软件、IM和IRC聊天客户端、一个光盘刻录程序和几个媒多播放器以及其它基本组件。不过敬请放心，您没有盗用任何东西，所有这些都是自由软件！Linux Mint的软件管理方式还有一个非常大的优点，就是您无需再为找一些软件而四处寻寻觅觅，即使有时候您确实需要从Linux Mint系统获得更多的功能。
 
-This section is intended to explain how this works and the advantages that it can bring to you. It's a bit long, but hopefully it will provide you with a good understanding of the philosophy behind package management and why it is considered a Good Thing (a phrase commonly capitalized by Linux users to mean that something is squarely in the category of good). If you're in a hurry, you can skip to the next section which will tell you how to actually use  the package system. 
+本章节旨在介绍软件管理器怎么工作以及它会给您带来哪些便捷。尽管篇幅有一些长，但是我们希望这能使您理解软件管理背后的哲学思想以及它为什么被称为“上成之作”（这是Linux用户常用来形容某种事物确实不错的一个词汇），如果您时间有限，那么可以跳过下面这一部分，其内容是介绍如何使用软件包系统的。
 
-The problems with browsing software vendors' websites and downloading and installing the software they offer are many:
+通过浏览软件供应商的官网下载安装软件会产生诸多的问题： 
 
-- It is difficult or impossible to find out if the software has been tested to work with your operating system
-- It is difficult or impossible to know how this software will interact with the other software installed on your system
-- It is difficult or impossible to know if you can place your trust  that  software from an unknown developer software will not cause any harm, willful or negligent, to your system Even if you know about a specific piece of software and its developer, you cannot be entirely sure that you are not downloading an executable that has been swapped out by a malicious third party for some type of malware. 
+- 难以确定甚至根本无法确定这个软件是否已经经过测试并且可以在您的系统上正确运行
 
-Furthermore, a problem with downloading and installing multiple different programs, from multiple different developers, is that there is no managerial infrastructure. Before you say “big deal”, consider how you are going to keep all these different pieces of software up to date. If you get tired of a program and want to remove it, how do you know how to achieve that? The program in question might not have come with a removal option, and even if it did, much of the time this will fail to remove the software cleanly and completely. In a very real sense, when you ran that installer program, you gave up some of your control of your computer to a program written entirely by a complete stranger.
+- 难以确定甚至根本无法确定这个软件是否会与系统中其它的软件发生冲突
 
-Finally, software which is distributed in this way is often, by virtue of necessity, “static”. This means that not only do you need to download the program itself, but also all of the data libraries that are required for it to run. Since a third-party software developer cannot know which data libraries you may already have available on your system, the only way that they can guarantee it will run on your system is by supplying all of the data libraries it needs along with the program itself. This means bigger downloads, and it means that when the time comes to update a given library, it needs to be done separately for all those programs using it, instead of just once. In summary, the distribution of static software results in the unnecessary duplication of a lot of work.  
+- 难以确定甚至根本无法确定那些素不相知的软件开发者是否会有意、无意的对我们的电脑造成损害，即使您对软件及其开发者已经有了足够的了解，但仍有一点要着重指出的是：您下载的可执行文件有可能会被居心不良的第三方用恶意软件所替代了。
 
-Package management in Linux Mint, and GNU/Linux operating systems in general, has been established for some time and is the preferred method for managing software as it avoids all of these issues. We've been safely and automatically installing our software since the early 1990s.
+再者从不同开发者的网站上下载安装众多不同的软件会导致您没法系统地管理它们。在您说“这没什么大不了的”之前，请想想您用什么方式来保持不同软件得到更新。如果您厌倦了、不想继续使用某个程序时又该如何卸载？也许软件根本就没有卸载选项，即使有许多情况下也没办法将软件干净、彻底的移除。还有一个现实的问题，一旦您运行了安装程序就等于把电脑的操控权交给了一个陌生人写的程序手上。
 
-Software is first written by a developer, as you might expect, and this end of the production chain is known as “upstream”. As a user of a Linux distribution, you are referred to as being at the furthest point “downstream” (unless you're an admin, in which case your users are the furthest point downstream, but you knew that because you're an admin). Once the developer is happy with the program or the update to the program they have written, they will release the source code for it. They will also communicate in their documentation which data libraries or other programs they took advantage of when they were writing the program. They have been doing this for some time and there are standardized and venerable ways for them to do this. Note that, with a few exceptions (usually either hardware manufacturers who release drivers for Linux, like nVidia or ATI, or certain major companies like Adobe, who we can trust) they release the actual source code for the program, that is, the list of instructions in that program in a human readable form. This has a number of implications, but most importantly for this discussion it means that they are willing to have their software peer reviewed by anyone and everyone with an Internet connection. It's awfully difficult to sneak spyware into your program when you're letting everyone see what you've written!
+最后一点，出于需要，以这种方式发行的软件通常是“静态的”。这意味着您不但要下载软件本身，还要下载软件运行所必需的全部库文件，因为一个第三方软件不会知道您的电脑里已经安装哪些库。唯一能确保程序能在系统中顺利运行的方法就是把软件运行所需的所有库文件都提供给您。这意味要下载更大的文件，同样当一个库文件要升级时，您要针对每一个使用这个文件的软件都进行相应的操作，而不能一次性完成。总而言之，以静态方式发布的软件会导致许多不必要的重复劳动。
 
-The software now moves down the stream to package maintainers, who are either volunteers or paid employees working for a Linux distribution. It is their responsibility to compile the source code for the software, test it on the distribution to make sure that it works, resolve any problems that they encounter and finally package the compiled (i.e., machine-readable) software in a convenient format. This package contains the executable program(s), their configuration files, and the instructions the package management software needs to successfully install it. Note that it won't ordinarily contain any static libraries, since it doesn't need to – the libraries are provided by other packages, and are therefore known as shared libraries. Your package management software will know if that a particular package requires another package to be installed first (like a shared library), because, as you will remember, the data libraries and related packages needed for the software to work were declared further upstream and that information is included in the package. The instructions are sufficiently detailed that even specific versions of other packages can be requested to ensure interoperability. The finished package is then uploaded to a special file server, which is called a software repository. 
+Linux Mint和其它的GNU/Linux操作系统采取现在的软件包管理方式已经相有当长的时间了，这是一种可以有效避免以上问题的软件管理方式。上世纪90年代早期开始，我们就已经能自动且安全地进行软件安装了。
 
-It is from that single location that you are able to download and install the software you need. You will know that the location is bona fide, because it is signed with a certificate that your package manager will check. You will also know that each individual package that you install is secure, because each package is itself signed by a GPG key, which your package manager will also check. Your package manager will even run an MD5 sum on each package to make sure that nothing went wrong when it was downloading, just like we did before with the LiveDVD iso. Notice how it's doing all of this for you. You're just sitting back, sipping a martini, and chatting in #linuxmint on xchat. The package manager has downloaded the packages you have selected, it will follow, to the letter (computers are fastidious in following instructions), the instructions in the package to perfectly install your software, and all of its dependencies, in the right order. There is no space for human error – if the package worked on the maintainer's computer, then it ought to on yours because the package manager will follow exactly the same procedure. 
+正如大家所知，起先，软件是由开发者编写的，这个生产链的最未端是“upstream”。作为一名Linux发行版的用户，您被称为处于最远端的“downstream”（除非您是管理员，这种情况下您的用户才是最远端downstream，而作为管理员您对此是了解的）。当开发者对他们所编写的软件或者软件更新很满意时，就会发布源代码。他们会在文档中描述自己在开发过程中借鉴或使用了哪些库或者程序。长久以来他们一直在这样做，并且已经够规范化了，这种方式很令人敬佩！请注意，他们发布的是真正的程序源代码，也就是说程序中有方便他人参考的注泽，一些少数开发者除外（通常指为Linux提供驱动的硬件开发商，比如nVidia、ATI或者像Adobe这样值得信赖的一些大公司）。这些都意义重大，不过最重要的一点是这意味着他们愿意让每一个可以联接互联网的人查看他们的代码，而当每个人都可以查看您写的代码时您想在程序中隐藏一个间谍软件是极不容易的。
 
-When it comes time to check for software updates, your package manager will automatically compare the software version that you have against what is available in the repository, and do all the necessary work to keep your system running smoothly and securely. So, if version 2.4 of BestSoft is uploaded to the repository, and you have version 2.3, the package manager will compare those version numbers, and offer to install the latest version, taking care, of course, of all the dependencies for the newer version of the software. 
+软件包的维护者通常是志愿者或某个Linux发行版的雇员，现在软件将流传递给他们。这些人的职责是完成软件源代码并在发行版上进行测试以确保能正常运行，他们要解决所遇到的问题并最终以适当的格式将程序打包编译好（即机器能识别的代码）。软件包中的软件包括可执行文件、配置文件以及安装软件所需的说明。请注意，它不会提供任何的静态库，因为根本不需要，这些库已经由其他的软件包提供了，因此称之为共享库。您的软件包管理器会检测安装某个特定的软件包是否需要先安装其它的软件包(比如说共享库)，您应该记得，远端的upstream 已经声明了软件包需要的库文件和关联的软件包，这些信息已经被记录在软件包里。在文档说明中详细地列出了需要用到的其他软件包的版本号等信息以保证互用性。软件包完成后就会被上传到特定的文件服务器中，通常称之为软件仓库。
 
-Sounding good yet? It gets better.
+这样您在下载安装软件时只要找到软件包管理器这块宝地就行了。这绝对是一个妙不可言的世界，软件包管理器会检查软件的证书。每个软件包都被签署了GPG密钥，软件包管理器同样会对此进行检查，以确保软件是可信安全的。软件包管理器甚至会检验每个软件包的MD5值来确保在下载过程中没有出现错误，就像我们在检验LiveDVD的iso文件那样。当然这些都是系统自动完成的，您所要做的仅仅是坐在一旁一边品着马丁尼鸡尾酒一边在Xchat上的#linuxmint频道聊天而已 。软件包管理器会下载您选定的软件包，然后严格按照软件包中的指令以正确的顺序安装选定的软件包和依赖软件包（计算机是热衷于按指令运行的）。在这一过程中，人为错误是没有机会出现的，如果软件包能在维护者的电脑上运行，那么它就可以在您的电脑上运上，因为两者种情形下软件管理器进行的是一模一样的工作。
 
-Humans err where computers don't and from time to time something may go wrong in this process. Perhaps you will, by accident, install hardware drivers for the wrong piece of hardware and this might break something. We've all done that. Or perhaps there's a bug or your favorite feature was removed by the program's developer for some reason. These problems demonstrate, paradoxically, the strength and security of package management. Because your package manager keeps fastidious records of everything it ever does, it is able to reverse installations, cleanly and completely. It will make sure that removing one package doesn't break any others, and you can even tell it specifically to do things like not automatically upgrade certain packages, because you like them the way they are, or to revert to an earlier version. Finally, the whole process is very heavily peer-reviewed. Because you are part of a large community of Linux users, all using the same repositories to obtain their software, if anything goes wrong you can be absolutely sure there will be a big fuss about it, and that the problem will be resolved quickly! In this way, software distribution in GNU/Linux distributions is very much based on trust, from the moment the original developer displays their source code for all to see, to the open discussion on the distribution's website. You can be confident in the software you obtain, not only because of the security protocols already mentioned, but because if anything does go wrong everyone will be talking about it!
+软件检查更新时，您的软件包管理器会自动比较当前软件的版本和源里软件的版本，做一系列必要的工作来使您的系统能够顺利安全地运行。所以，如果 BestSoft 的 2.4 版本被上传到源里，您系统中有的是 2.3 版本，软件包管理器将会比较这些版本差异，然后提示您去安装最新的版本。当然，也会同时更新升级的所依赖的软件包。
 
-Let's look again at our list of problems and see what we have solved:
+听起来很不错吧？实际上它比这更出色。 
 
-- It is difficult or impossible to find out if the software has been tested to work with your operating system
-  - You know that the software available to you through the repository has been thoroughly tested by the package maintainer and the testing team to work with your operating system. They won't want to get it wrong, mostly on principle, but also because if they do they'll soon be getting lots of emails.
-- It is difficult or impossible to know how this software will interact with the other software installed on your system
-  - Similarly, package maintainers try their utmost to ensure that packages won't conflict with other packages offered by their distribution. Of course, they might not have every last package installed on their testing machines (in fact, usually package maintainers build their packages on clean installations to ensure that they are standard), but if a member of the user community finds out that there is a problem, they will no doubt let the distribution team know, and the problem will be fixed, or at least worked on. Unless you are a beta tester, then you are unlikely to ever see such a conflict, because that's what beta testing is for.
-- It is difficult or impossible to know if you can place your trust in the developer that their software will not cause any harm, willful or negligent, to your system
-  - Package maintainers are hardly likely to package software they know will harm people's computers (including their own)! Only software which is known and trusted will ever make it to the repository.
-- Even if you know about a specific piece of software and its developer, you cannot be entirely sure that you are not downloading an executable that has been swapped out by a malicious third party for some type of malware. 
-  - In addition to the usual security measures put in place by the institutions who own the servers (usually prestigious academic or research institutions, or large companies), the repository and packages themselves are secured by certificates and GPG keys. If something's gone wrong, your package manager will tell you about it. The present author, in ten years of using Linux, has never once known anything to go wrong in this respect.
-- It is difficult to remove (all traces of) installed programs 
-  - Because the package management software keeps a complete record of all of its actions, it is quite capable of reversing any steps that it took in the past, while ensuring that removing one package will not cause any other package to fail.
-- Static packages are big and clunky
-  - Because you're using package management, you will only ever download static libraries when there is no shared alternative. If you need new shared data libraries to install a given program, your package manager will know this and install them for you automatically. You will only ever have to download a shared library once because, well, it's shared by all the programs that need it. If you end up removing the last package that needs a shared library, then the package management software will remove that too. But, if you decide that you do want to keep the shared object anyway, perhaps because you just know you'll need it later, then you can tell the package management software to do that, too.
-- I'm still not convinced
-  - Good! Post a message on the forums about it if you have a genuine concern about package management, or to ask about other people's experiences. It bears repeating that the package method of distribution in GNU/Linux relies on trust, so if there's a problem, we want to hear about it!
+“人会出错但计算机不会。”这句话也不永远正确。我们都遇到过这样的事，装错了硬件驱动给系统带来损害，有时会遇到了漏洞，或者您钟情的特性被开发者出于某种原因移除了。这些问题都是软件包管理健壮性和安全性的表现。因为您的软件包管理器一丝不苟地记录了它所做的一切，所以可以干净而彻底地进行软件卸载。它会确保在卸载一个软件包时不会对其它软件包的软件造成破坏，您甚至可以指定它做一些特殊的任务，比如按您的意愿取消一些特定的软件包的升级或者使其退回到旧版本。您跟每一个Linux Mint使用者一样都可以亨受这些功能，因为您是庞大的Linux社区的一部分，整个社区都在使用相同的源来获取软件。假如您遇到了某个问题，这个问题也会出现在一大堆人的电脑上，所以它会很快得到解决的。自最初的开发者将他们的代码公布网上使所有人都可以查看以及在发布的网站上进行讨论的之时，在Linux发行版上发布的软件即建立了使人强烈信任的基础。您应该对自己使用软件有信心，不仅仅因为此前提及的安全协议也因为任何软件的差错都会在网络社区中得到交流。
 
-A final word. You may have been subjected to rumors to the effect that Linux isn't finished yet, or that if you use Linux then you are a beta-tester, or that Linux software is unstable. These are all half truths. “Linux” will never be “finished”, any more than any other major operating system can be considered “finished”. From the Linux kernel to the artwork on your screen, all the elements of your operating system will always be under some kind of development. This is because programmers are working hard to keep us up to date with the latest developments in programming and hardware technology. This does not mean that the software available for you to use is of bad quality. The base system at the core of  Linux Mint has been under heavy development for about two decades now, and is very mature, stable, and proven. While there are definitely unstable versions of most of the software on your operating system, you won't be using them because you're not a beta tester. You know you're not a beta tester, because you're reading this. The software available to you on the repositories you use will always be stable and well tested, unless you change those repositories to the ones used by the testers (in which case congratulations, you've just become a tester). It's a bit of a no-brainer, really.  
+我们再看一遍这些问题的列表以及解决方案：
 
-So, to summarize with an example, when you install Opera, Real Player or Google Earth in Linux Mint, these applications do not come from their original developers (Opera, Real and Google). Of course the upstream application comes from these developers, but only after they’ve been properly packaged and tested do they become available for you. So, in other words, you should never need to go and browse the Internet to look for software, as everything you need is available and already tested for you and for your system by the Linux Mint and Ubuntu teams. All you need to do is choose what you want to do. 
+- 难以核实软件是否已经在您所用的系统上通过了测试
+  - 您应该知道从源里下载的软件已经被软件包的维护者和测试团队在您所用的系统上进行过认真细致的测试了。他们不会放任错误的存在，这不仅基于强烈责任心也是因为他们不这么做的话电子邮箱中的反馈邮件就会纷至沓来。
+- 很难知道某个软件是否会与系统中已安装的其它软件发生冲突
+  - 与此类似，维护者尽量不会使他们发布的软件包与系统中的其它软件发生冲突。当然他们不会把每个软件都装在系统里进行测试（实际上，每次测试用的都是纯净的系统，这样可以保证系统是处于标准状态），但是如果有社区用户反映出现了状况，他们就会通知发布团队，这样问题就会被修复至少会朝这方面努力。除非您是beta 用户，否则您不太可能会遇到软件冲突这样的问题，因为beta版本来就是用来测试的嘛。
+- 很难知道您是否可以给予软件开发者完全的信任，因为您不知道他们软件是否会有意无意地损害您的电脑
+  - 软件包维护者几乎不可能将那些损害人们电脑（甚至软件包括他们自己的）的软件打包，只有那些被人们了解和信任的软件才会被加入到源中。
+- 即使您对软件及其开发者有一定的了解，但是您仍不能完全确定所下载的可执行文件是否已经被第三方的恶意软件所取代
+  - 除了服务器的管理机构（通常是有名望的学校或研究机构和大公司）采取通常的安全措施外，源和软件包也有证书和GPG密钥的防护。如果有错误发生，软件包管理器会进行提示。本文的作者在使用Linux的十几年里从未遇到过这方面的问题。
+- 很难移除己安装的软件及其依赖联系
+  - 因为软件包管理器详细记录了软件的行为，所以只要保证移除一个软件包不会造成其它软件的错误，对以前发生的步聚进行反置操作是完全可行的。
+- 静态软件包庞大而臃肿
+  - 因为您使用了软件包管理器，所以只有在没有共享库的替代品的时候才需要下载静态库。如果在安装软件时需新的共享数据库，您的软件包管理器会自动进行下载。一个共享库只需下载一次，它会被所有使用到它的软件所共享。如果您移除了最后一个需要某个共享库的程序，软件包管理器会将共享库一并移除。当然，如果您以后可能会用到这个库，可以决定将其保留也可以让软件包管理器不移除它。
+- 我仍然没有被说服
+  - 好吧，如果您真的很在意软件包管理器的话就在论坛上发个贴子征求意见或着问一下别人的经历，GNU/Linux这种发行软件包的方式所获得信任是经得住反复考验的。对于任何意见和批评，我们洗耳恭听。
 
-Linux Mint will update itself automatically through a tool called the Update Manager, which will update not only the base operating system, but all the software installed on your machine as well. 
+最后说几点。您或许受传言的影响认为Linux是一个半成品，您只是一个beta版的测试者或Linux软件不稳定。某种程度来说没错，与其它被认为已经做到了极致的大型操作系统相比，“Linux”项目永远不会完工。从Linux内核到电脑屏幕上的艺术品都将永远处于某种发展之中，原因在于程序员们正努力使我们的体验跟上软件和硬件发展的步伐。这并不表示您使用的软件质量欠佳，Linux Mint基于的核心系统已经有了二十几年的开发历程，它成熟、稳定并且值得信赖。当您的操作系统中有许多不稳定的软件时，您就不会使用它，因为您不是一个测试者。怎么知道您不是测试者呢？读了这篇文章您就知道了。源里为您提供的软件永远是稳定并通过测试的，除非您自己换成了测试者的源（这样的话，就恭喜您成了测试者了），不过这的确不是明智之举。
 
-It's that simple. Whew!
+接下来，用例子做一下总结吧，当您在Linux Mint里安装Opera、Real Player、Google Earth时，这些软件可不是直接来自于它们的开发者（Opera、Real Player、Google）。当然这些软件是由开发者开发的，但只有被正确地打包和测试之后才会被提供给您使用。换句话说，您不用再去网上寻找软件，您所需要的一切，Linux Mint和Ubuntu团队已经为您测试好了。您只要选择自己想做的事情就行了。
 
-Some of the most popular applications that are not installed by default in Linux Mint are Opera, Skype, Acrobat Reader, Google Earth and Real Player. 
+就是这么简单！
 
-#### The Software Manager
+Opera、Skype、Acrobat Reader 、Google Earth和Real Player等一些最流行的软件在Linux Mint中并没有被默认安装。
 
-#### 软件管理器
+### 软件管理器
 
-The easiest way to install software in Linux Mint is to use the Software Manager. It is built on top of the package technology we discussed earlier, but makes things easier to understand, as it allows you to install programs rather than packages (though, remember, it is still using the package system in the background, so it still has the same benefits).
-
-在Linux Mint中安装软件最简单的方法就是使用软件管理器。它是在建立在包管理基础之上的技术，使很多东西简单化，让您安装软件而不是包（尽管如此，记住了，它后台使用的还是包管理器，所以它也有和包管理器相同的益处）。
-
-Open the menu and select “Software Manager”. 
+Linux Mint中最便捷的软件安装方式是使用软件管理器。它建立在我们此前讨论过的软件包技术的基础上，使用起来更加方便易懂，它使您用安装软件的方式安装而不是软件包（不过记住了，它后台使用的也是软件包管理系统，所以也有同样的优点）。
 
 打开菜单选择“软件管理器”。
 
-The Software Manager lets you browse the software made available for Linux Mint. You can browse by category, search by keyword or sort the software by rating and popularity.
-
-软件管理器可以让您查看到在Linux Mint上可以使用的软件。您可以按类查看，搜索关键字，或者按排名或者受欢迎程度排序。
-
-The Menu
+在软件管理器中您可以浏览Linux Mint可以安装的软件。您可以按目录查看，可以通过关键字搜索或者通过评分或流行度进行排序。
 
 菜单
 
-If you know what you're looking for, you don't need to launch anything. Just start typing the application's name in the menu and have it installed from there. 
+如果您知道自己要找的程序是什么则不要运行任何程序。只要在菜单里输上程序的名字就可以安装这个程序。
 
-如果您知道您自己在找什么软件，您不需要运行任何东西。只需要在菜单里输入应用程序的名字，然后安装即可。
+举个例子，安装“gftp”软件包：
 
-For instance, to install the “gftp” package: 
+- 按下CTRL+Super_L启动菜单
+- 键入“gftp”
+- 按“Up”键高亮选中“Intall gftp”键
+- 按Enter 
 
-例如，安装“gftp”这个软件包
+怎么样，软件包管理器是不是很好用？
 
-- Press CTRL+Super_L to open the menu
-- Type “gftp”
-- Press the “Up” arrow to highlight the “Install gftp” button
-- Press Enter
+### 新立得和APT
 
-- 按下组合键CTRL+SUPER_L来打开菜单
-- 输入“gftp”
-- 按“上”箭头来使“install gftp”高亮
-- 按回车键
+如果您不仅仅想安装一个应用程序，或者您找的软件不在软件入口（ Software Portal）或软件管理器中。Linux Mint提供了另外两种安装软件的方法，是一个叫“新立得”的图形界面工具和一个叫“APT”的命令行工具。
 
-Did we mention how great package management is yet?
+我们来演示一下如何使用那两种工具安装Opera（Firefox的替代品）：
 
-- 怎么样，我们谈到的软件管理器还不错吧？
+打开菜单选择“软件包管理器”。
 
-#### Synaptic & APT
+点击“搜索”按钮并输入“opera”。在查看软件包的列表项中选中与Opera Web浏览器相符的那一项。勾选它并选择“标记为安装”，点击“应用”按钮。
 
-#### 新立得和APT
+现在我们来看一下怎么使用APT命令行工具安装Opera。
 
-If you want to install more than one application or if you’re looking for something which is not in the Software Portal or in the Software Manager, Linux Mint provides two other ways to install software. One is a graphical tool called “Synaptic” and the other is a command line tool called “APT”. 
-
-如果你想安装更多的应用程序，或者你找的软件不在Software Portal和软件管理器中，Linux Mint提供了另外2种方式来安装软件。一个是图形化的工具叫做“新立得”，一个是命令行工具叫做“APT”。
-
-Let’s see how we can install Opera (an alternative to the Firefox Web Browser) with these tools instead:
-
-我们来看一下如何通过以上两种方式来安装Opera（一种类似于火狐的浏览器）:
-
-Open the menu and select “Package Manager”. 
-
-打开菜单，选择包管理器。
-
-Click on the “Search” button and type “opera”. Then go through the list of packages and find the one corresponding to the Opera Web Browser. Tick the box and select “Mark for Installation” then click on the “Apply” button. 
-
-点击搜索按钮，输入“Opera”。然后在列表里找寻对应Opera浏览器的项目，并勾选“标记为安装” ，单击“应用”按钮。
-
-Now let’s see how we could have installed Opera using the APT command line tool. 
-
-接下来让我们看看怎么使用命令行工具来安装Opera。
-
-Open the menu and select “Terminal”. Then type the following command:
-
-打来主菜单，选择“终端”，输入以下的命令。
+打开菜单选择“终端”，输入以下命令：
 
     apt install opera
 
-Note: Make sure synaptic is closed before using APT. Synaptic is using APT in the background so both can’t run at the same time. The same goes for the Software Manager.
+注意：使用APT前务必关闭新立得，由于新立得在后台运行APT所以二者不能同时启动。同样地软件管理器也是如此。
 
-注意：确保你的新立得已经关闭了，因为新立得的后台运行的实际上是APT工具，二者不可以同时运行。同理软件管理器也是如此。
+APT使用起来非常简单但是没有图形界面，如果您刚开始使用Linux应该更喜欢使用图形界面（这也是它存在的原因），但是随着时间的流逝您会更青睐于快速高效的命令行工具，就像安装Opera最快的方法是输入“apt install opera”，没有比这更简单的了。
 
-As you can see APT is extremely easy to use but it’s not graphical. It’s OK. If you’re starting with Linux you probably prefer to deal with a graphical interface (that's why they're there) but as time goes on you’ll prefer things to be fast and efficient and as you can see the fastest way to install Opera is to type “apt install opera”. It can’t be simpler than that. 
+软件管理器和新立得/APT之间有一个重要的不同之处，新立得和APT主要用来处理软件包。在我们的例子中Opera非常简单，本身只由一个名为“opera”的软件包组成，但并非所有情况都是如此，而且有时候您并不知道软件包的名字。甚至有些时候您都接触不到软件的软件包。
 
-如您所见，APT是非常好用的，但是不是图形化的。没关系，如果您刚开始使用Linux，您可能更多的使用图形界面（这也是图形界面的益处），但是随着时间的移动，您可能希望更快更加有效的完成一些事情，比如说安装Opera最简单的方法是“apt install opera”。这再简单不过喽。
+软件管理器的不同之处在于，在安装程序时不仅像新立得和APT那样从源（软件包数据库）里获得软件包，还会从Internet的其它地方获得。
 
-There is one important difference between the Software Manager and Synaptic/APT though. With Synaptic and APT you basically deal with packages. In our example the Opera application was very simple and was only made of one package which name was also “opera”, but this will not always be the case, and sometimes you might not know what the name of the package is. Sometimes you might not even have access to the packages for a particular application. 
+因此，您选择使用软件管理器可能基于以下两方面的原因：
 
-软件管理器,新立得和APT它们之间的一个重要差别在于，新立得和APT主要用来处理包，在我们的例子中，Opera非常简单，它本身只是由一个包组成的，但是情况并不总是这样的,一些情况下，您并不知道包的名字。有时候您甚至可能接触不到某个软件的包。
-
-The Software Manager is different because it lets you install “applications” by getting the right “packages” for you, not only from the repositories (packages databases) that Synaptic and APT have access to, but also from other places on the Internet. 
-
-软件管理器的不同，在您选择安装应用程序时，自动会为您选择好包。包的来源不仅仅是来自新立得和APT所依赖的源，还来自互联网上的其他地方。
-
-So you might use the Software Manager for two different reasons: 
-
-因此您使用软件管理器可能有以下两种原因：
-
-- Because you’re not used to APT/Synaptic
-- Because it can actually install applications you don’t have access to using other tools. 
-
-- 您不习惯新立得和APT
-- 因为它能准确的安装好应用软件，而您不需使用其他工具。
+- 不习惯使用新立得/APT
+- 它安装的某些软件您通过别的方式无法安装。
 
 ### Remove applications
 
