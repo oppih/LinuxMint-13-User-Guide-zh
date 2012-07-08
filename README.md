@@ -1,6 +1,9 @@
 LinuxMint-13 用户手册中文翻译项目
 ==========================
 
+Finshed at July, 2012, check it here: [http://oppih.github.com/LinuxMint-13-User-Guide-zh/](http://oppih.github.com/LinuxMint-13-User-Guide-zh/)
+
+
 **Source**: [http://www.linuxmint.com/documentation/user-guide/](http://www.linuxmint.com/documentation/user-guide/)
 
 **Reference**: version 11 Chinese edition： [http://www.linuxmint.com/documentation/user-guide/chinese_11.0.pdf](http://www.linuxmint.com/documentation/user-guide/chinese_11.0.pdf)
